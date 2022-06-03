@@ -17,10 +17,10 @@ We had to work together in the final sprint of minor Visual design & Front end d
 
 ## Group members
 
-Aref Akminasi (18068529@student.hhs.nl)
-Maartje Bakker (18037852@student.hhs.nl)
-Maud Hoogeveen (19088515@student.hhs.nl)
-Thijs van Deurzen (18108148@student.hhs.nl)
+Aref Akminasi (18068529@student.hhs.nl)  
+Maartje Bakker (18037852@student.hhs.nl)  
+Maud Hoogeveen (19088515@student.hhs.nl)  
+Thijs van Deurzen (18108148@student.hhs.nl)  
 Tom Bieleman (18117988@student.hhs.nl)
 
 ## Thanks
