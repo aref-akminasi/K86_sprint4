@@ -1,0 +1,70 @@
+$bg: #D8CFAF;
+$height: 95vh;
+$width: 90vw;
+$floor4: #1C4966;
+$floor3: #296d98;
+$floor2: #3792cb;
+$floor1: #45b6fe;
+$button: #D6D5C9;
+$buttonBorder: #555550;
+
+body {
+    background-color: $bg;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#building {
+    display: flex;
+    flex-direction: column;
+}
+
+#navigation {
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+#floor4 {
+    height: $height;
+    width: $width;
+    background-color: $floor4;
+}
+
+#floor3 {
+    height: $height;
+    width: $width;
+    background-color: $floor3;
+}
+
+#floor2 {
+    height: $height;
+    width: $width;
+    background-color: $floor2;
+}
+
+#floor1 {
+    height: $height;
+    width: $width;
+    background-color: $floor1;
+}
+
+.button {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: $button;
+    border: 1px solid $buttonBorder;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    border: 2px solid $buttonBorder;
+}
+
+a {
+    text-decoration: none;
+}

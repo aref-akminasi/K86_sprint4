@@ -1,0 +1,65 @@
+body {
+  background-color: #D8CFAF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#town {
+  background-color: #ACBFA4;
+  height: 300px;
+  width: 1000px;
+  margin-top: 400px;
+  border: 1px solid #899883;
+  -webkit-box-shadow: 10px 10px 20px #899883;
+          box-shadow: 10px 10px 20px #899883;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#thijsBuilding {
+  background-color: #598392;
+  height: 420px;
+  width: 120px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -200px;
+  border: 1px solid #476874;
+}
+
+#arefBuilding {
+  background-color: #DF2935;
+  height: 420px;
+  width: 120px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -200px;
+  border: 1px solid #B2202A;
+}
+
+#building {
+  background-color: #3F2A2B;
+  height: 350px;
+  width: 75px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -130px;
+  border: 1px solid #322122;
+}
+
+#thijsBuilding:hover {
+  border: 2px solid #476874;
+}
+
+#arefBuilding:hover {
+  border: 2px solid #B2202A;
+}
+/*# sourceMappingURL=main.css.map */

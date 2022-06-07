@@ -1,0 +1,65 @@
+$bg: #D8CFAF;
+$ground: #ACBFA4;
+$groundBorder: #899883;
+$thijs: #598392;
+$thijsBorder: #476874;
+$aref: #DF2935;
+$arefBorder: #B2202A;
+$building: #3F2A2B;
+$buildingBorder: #322122;
+
+
+body {
+    background-color: $bg;
+    display: flex;
+    justify-content: center;
+}
+
+#town {
+    background-color: $ground;
+    height: 300px;
+    width: 1000px;
+    margin-top: 400px;
+    border: 1px solid $groundBorder;
+    box-shadow: 10px 10px 20px $groundBorder;
+    display: flex;
+    flex-direction: row;
+}
+
+#thijsBuilding {
+    background-color: $thijs;
+    height: 420px;
+    width: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -200px;
+    border: 1px solid $thijsBorder;
+}
+
+#arefBuilding {
+    background-color: $aref;
+    height: 420px;
+    width: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -200px;
+    border: 1px solid $arefBorder;
+}
+
+#building {
+    background-color: $building;
+    height: 350px;
+    width: 75px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -130px;
+    border: 1px solid $buildingBorder;
+}
+
+#thijsBuilding:hover {
+    border: 2px solid $thijsBorder;
+}
+
+#arefBuilding:hover {
+    border: 2px solid $arefBorder;
+}

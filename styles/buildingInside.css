@@ -1,0 +1,78 @@
+body {
+  background-color: #D8CFAF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#building {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#navigation {
+  width: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+
+#floor4 {
+  height: 95vh;
+  width: 90vw;
+  background-color: #1C4966;
+}
+
+#floor3 {
+  height: 95vh;
+  width: 90vw;
+  background-color: #296d98;
+}
+
+#floor2 {
+  height: 95vh;
+  width: 90vw;
+  background-color: #3792cb;
+}
+
+#floor1 {
+  height: 95vh;
+  width: 90vw;
+  background-color: #45b6fe;
+}
+
+.button {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  background-color: #D6D5C9;
+  border: 1px solid #555550;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  border: 2px solid #555550;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=buildingInside.css.map */
