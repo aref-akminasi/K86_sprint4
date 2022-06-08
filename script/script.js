@@ -1,27 +1,10 @@
 window.onload = function () {
-  /* gsap.from(".header", { duration: 1, y: "-100%", ease: "bounce" });
-  gsap.from(".link", { duration: 1, opacity: 0, delay: 1, stagger: 0.3 });
-  gsap.fromTo(
-    ".reverse",
-    { opacity: 0, scale: 0, rotation: 720 },
-    { duration: 1, opacity: 1, scale: 1, rotation: 0 }
-  );*/
-  /* const timeline = gsap.timeline({ defaults: { duration: 1 } });
-  timeline
-    .from(".header", { y: "-100%", ease: "bounce" })
-    .from(".link", { opacity: 0, stagger: 0.3 })
-    .fromTo(
-      ".reverse",
-      { opacity: 0, scale: 0, rotation: 720 },
-      { duration: 1, opacity: 1, scale: 1, rotation: 0 }
-    );*/
-
   function applyAnimationAirplane() {
     gsap.fromTo(
       ".airplane",
       { x: "-10vw" },
       {
-        duration: 20,
+        duration: Math.floor(Math.random() * 10) + 10,
         x: "100vw",
       }
     );
