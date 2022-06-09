@@ -1,5 +1,5 @@
 body {
-  background-color: #D8CFAF;
+  background-color: #dcf0fa;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,30 +33,6 @@ body {
           flex-direction: column;
   margin-left: 20px;
   margin-top: 80px;
-}
-
-#floor4 {
-  height: 200px;
-  width: 500px;
-  background-color: #1C4966;
-}
-
-#floor3 {
-  height: 200px;
-  width: 500px;
-  background-color: #296d98;
-}
-
-#floor2 {
-  height: 200px;
-  width: 500px;
-  background-color: #3792cb;
-}
-
-#floor1 {
-  height: 200px;
-  width: 500px;
-  background-color: #45b6fe;
 }
 
 .button {

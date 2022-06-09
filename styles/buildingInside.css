@@ -1,5 +1,5 @@
 body {
-  background-color: #D8CFAF;
+  background-color: #dcf0fa;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,6 +20,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 90vw;
+  text-align: center;
 }
 
 #navigation {
@@ -35,28 +37,8 @@ body {
   margin-top: 80px;
 }
 
-#floor4 {
-  height: 95vh;
+img {
   width: 90vw;
-  background-color: #1C4966;
-}
-
-#floor3 {
-  height: 95vh;
-  width: 90vw;
-  background-color: #296d98;
-}
-
-#floor2 {
-  height: 95vh;
-  width: 90vw;
-  background-color: #3792cb;
-}
-
-#floor1 {
-  height: 95vh;
-  width: 90vw;
-  background-color: #45b6fe;
 }
 
 .button {

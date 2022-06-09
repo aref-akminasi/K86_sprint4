@@ -1,10 +1,6 @@
-$bg: #D8CFAF;
+$bg: #dcf0fa;
 $height: 200px;
 $width: 500px;
-$floor4: #1C4966;
-$floor3: #296d98;
-$floor2: #3792cb;
-$floor1: #45b6fe;
 $button: #D6D5C9;
 $buttonBorder: #555550;
 
@@ -26,30 +22,6 @@ body {
     flex-direction: column;
     margin-left: 20px;
     margin-top: 80px;
-}
-
-#floor4 {
-    height: $height;
-    width: $width;
-    background-color: $floor4;
-}
-
-#floor3 {
-    height: $height;
-    width: $width;
-    background-color: $floor3;
-}
-
-#floor2 {
-    height: $height;
-    width: $width;
-    background-color: $floor2;
-}
-
-#floor1 {
-    height: $height;
-    width: $width;
-    background-color: $floor1;
 }
 
 .button {
