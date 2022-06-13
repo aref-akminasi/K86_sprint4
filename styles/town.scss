@@ -1,0 +1,35 @@
+$bg: #dcf0fa;
+$ground: #ACBFA4;
+$groundBorder: #899883;
+$thijs: #598392;
+$thijsBorder: #476874;
+$aref: #DF2935;
+$arefBorder: #B2202A;
+$building: #3F2A2B;
+$buildingBorder: #322122;
+
+
+body {
+    background-color: $bg;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+}
+
+#rowOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#rowTwo, #rowThree, #rowFour, #rowFive, #rowSix {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -193px;
+}

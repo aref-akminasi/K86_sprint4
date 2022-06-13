@@ -1,35 +1,117 @@
 $bg: #dcf0fa;
-$ground: #ACBFA4;
-$groundBorder: #899883;
-$thijs: #598392;
-$thijsBorder: #476874;
-$aref: #DF2935;
-$arefBorder: #B2202A;
-$building: #3F2A2B;
-$buildingBorder: #322122;
-
+$cloud:	#f6f6f6;
+$cloudBorder: #cccccc;
 
 body {
+    background-image: url("../images/town.png");
+    background-repeat: no-repeat;
+    background-position: center; 
     background-color: $bg;
     display: flex;
-    justify-content: center;
-}
-
-img {
-    height: 300px;
-    width: 400px;
-}
-
-#rowOne {
-    display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-top: 80px;
+    margin: 0px;
+    overflow: hidden;
 }
 
-#rowTwo, #rowThree, #rowFour, #rowFive, #rowSix {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: -193px;
+#leftClouds {
+    width: 50vw;
+    height: 100vh;
+    background-color: $cloud;
+    border: 3px solid $cloudBorder;
+    text-align: left;
+}
+
+#rightClouds {
+    width: 50vw;
+    height: 100vh;
+    background-color: $cloud;
+    border: 3px solid $cloudBorder;
+}
+
+#middle {
+    width: 0vw;
+}
+
+p {
+    margin-top: 300px;
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+    text-align: center;
+}
+
+.leftMove {
+    animation-name: moveLeft;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+
+.rightMove {
+    animation-name: moveRight;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+
+.middleMove {
+    animation-name: moveMiddle;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+
+@keyframes moveMiddle {
+    0% {
+        width: 0vw;
+    }
+    25% {
+        width: 25vw;
+    }
+    50% {
+        width: 50vw;
+    }
+    75% {
+        width: 75vw;
+    }
+    100% {
+        width: 100vw;
+    }
+}
+
+@keyframes moveLeft {
+    25% {
+        width: 37.5vw;
+        opacity: 0.6;
+    }
+    50% {
+        width: 25vw;
+        opacity: 0.2;
+    }
+    75% {
+        width: 12.5vw;
+        opacity: -0.2;
+    }
+    100% {
+        width: 0vw;
+        opacity: -0.2;
+    }
+}
+
+@keyframes moveRight {
+    25% {
+        width: 37.5vw;
+        opacity: 0.6;
+    }
+    50% {
+        width: 25vw;
+        opacity: 0.2;
+    }
+    75% {
+        width: 12.5vw;
+        opacity: -0.2;
+    }
+    100% {
+        width: 0vw;
+        opacity: -0.2;
+    }
 }

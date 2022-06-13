@@ -1,43 +1,184 @@
 body {
+  background-image: url("../images/town.png");
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: #dcf0fa;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-img {
-  height: 300px;
-  width: 400px;
-}
-
-#rowOne {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 80px;
+  margin: 0px;
+  overflow: hidden;
 }
 
-#rowTwo, #rowThree, #rowFour, #rowFive, #rowSix {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: -193px;
+#leftClouds {
+  width: 50vw;
+  height: 100vh;
+  background-color: #f6f6f6;
+  border: 3px solid #cccccc;
+  text-align: left;
+}
+
+#rightClouds {
+  width: 50vw;
+  height: 100vh;
+  background-color: #f6f6f6;
+  border: 3px solid #cccccc;
+}
+
+#middle {
+  width: 0vw;
+}
+
+p {
+  margin-top: 300px;
+  font-size: 20px;
+}
+
+button {
+  font-size: 20px;
+  text-align: center;
+}
+
+.leftMove {
+  -webkit-animation-name: moveLeft;
+          animation-name: moveLeft;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.rightMove {
+  -webkit-animation-name: moveRight;
+          animation-name: moveRight;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.middleMove {
+  -webkit-animation-name: moveMiddle;
+          animation-name: moveMiddle;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes moveMiddle {
+  0% {
+    width: 0vw;
+  }
+  25% {
+    width: 25vw;
+  }
+  50% {
+    width: 50vw;
+  }
+  75% {
+    width: 75vw;
+  }
+  100% {
+    width: 100vw;
+  }
+}
+
+@keyframes moveMiddle {
+  0% {
+    width: 0vw;
+  }
+  25% {
+    width: 25vw;
+  }
+  50% {
+    width: 50vw;
+  }
+  75% {
+    width: 75vw;
+  }
+  100% {
+    width: 100vw;
+  }
+}
+
+@-webkit-keyframes moveLeft {
+  25% {
+    width: 37.5vw;
+    opacity: 0.6;
+  }
+  50% {
+    width: 25vw;
+    opacity: 0.2;
+  }
+  75% {
+    width: 12.5vw;
+    opacity: -0.2;
+  }
+  100% {
+    width: 0vw;
+    opacity: -0.2;
+  }
+}
+
+@keyframes moveLeft {
+  25% {
+    width: 37.5vw;
+    opacity: 0.6;
+  }
+  50% {
+    width: 25vw;
+    opacity: 0.2;
+  }
+  75% {
+    width: 12.5vw;
+    opacity: -0.2;
+  }
+  100% {
+    width: 0vw;
+    opacity: -0.2;
+  }
+}
+
+@-webkit-keyframes moveRight {
+  25% {
+    width: 37.5vw;
+    opacity: 0.6;
+  }
+  50% {
+    width: 25vw;
+    opacity: 0.2;
+  }
+  75% {
+    width: 12.5vw;
+    opacity: -0.2;
+  }
+  100% {
+    width: 0vw;
+    opacity: -0.2;
+  }
+}
+
+@keyframes moveRight {
+  25% {
+    width: 37.5vw;
+    opacity: 0.6;
+  }
+  50% {
+    width: 25vw;
+    opacity: 0.2;
+  }
+  75% {
+    width: 12.5vw;
+    opacity: -0.2;
+  }
+  100% {
+    width: 0vw;
+    opacity: -0.2;
+  }
 }
 /*# sourceMappingURL=main.css.map */
