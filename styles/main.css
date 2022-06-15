@@ -1,7 +1,4 @@
 body {
-  background-image: url("../pages/town.html");
-  background-repeat: no-repeat;
-  background-position: top center;
   background-color: #dcf0fa;
   display: flex;
   flex-direction: row;

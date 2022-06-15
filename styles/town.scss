@@ -18,11 +18,30 @@ body {
     animation-timing-function: linear;
 }
 
-img {
-    height: 300px;
-    width: 400px;
+#town {
+    background-image: url('../images/lellijk_eiland_lols.svg');
+    height: 75vh;
+    width: 75vw;
+    margin: auto;
+    margin-top: 10vh;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+#buildingOne {
+    height: 20vh;
+    object-fit: contain;
+    margin-top: 15vh;
+    margin-left: 20vw;
+}
+
+#buildingTwo {
+    height: 20vh;
+    object-fit: contain;
+    
+}
+
+/*
 #rowOne {
     display: flex;
     flex-direction: row;
@@ -36,6 +55,7 @@ img {
     justify-content: center;
     margin-top: -193px;
 }
+*/
 
 @keyframes fadeIn {
     0%{

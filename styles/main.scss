@@ -1,11 +1,7 @@
 $bg: #dcf0fa;
 $cloud:	#DBF3FA;
-$cloudBorder: #cccccc;
 
-body {
-    background-image: url("../pages/town.html");
-    background-repeat: no-repeat;
-    background-position: top center; 
+body { 
     background-color: $bg;
     display: flex;
     flex-direction: row;
