@@ -13,6 +13,9 @@ body {
     background-color: $bg;
     display: flex;
     justify-content: center;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-timing-function: linear;
 }
 
 img {
@@ -32,4 +35,13 @@ img {
     flex-direction: row;
     justify-content: center;
     margin-top: -193px;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1.0;
+    }
 }

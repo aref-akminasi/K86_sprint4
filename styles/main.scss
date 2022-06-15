@@ -1,11 +1,11 @@
 $bg: #dcf0fa;
-$cloud:	#f6f6f6;
+$cloud:	#DBF3FA;
 $cloudBorder: #cccccc;
 
 body {
-    background-image: url("../images/town.png");
+    background-image: url("../pages/town.html");
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: top center; 
     background-color: $bg;
     display: flex;
     flex-direction: row;
@@ -13,19 +13,42 @@ body {
     overflow: hidden;
 }
 
-#leftClouds {
-    width: 50vw;
-    height: 100vh;
-    background-color: $cloud;
-    border: 3px solid $cloudBorder;
-    text-align: left;
+.beginOpacity {
+    opacity: 0.0;
 }
 
-#rightClouds {
-    width: 50vw;
-    height: 100vh;
+#left {
+    display: flex;
+    flex-direction: column;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+}
+
+#topLeftClouds {
+    width: 30vw;
+    height: 50vh;
     background-color: $cloud;
-    border: 3px solid $cloudBorder;
+}
+
+#bottomLeftClouds {
+    width: 30vw;
+    height: 50vh;
+    background-color: $cloud;
+}
+
+#topRightClouds {
+    width: 75vw;
+    height: 50vh;
+    background-color: $cloud;
+}
+
+#bottomRightClouds {
+    width: 75vw;
+    height: 50vh;
+    background-color: $cloud;
 }
 
 #middle {
@@ -33,13 +56,105 @@ body {
 }
 
 p {
-    margin-top: 300px;
     font-size: 20px;
+    margin-left: 30px;
 }
 
 button {
     font-size: 20px;
     text-align: center;
+    margin-left: 30px;
+}
+
+img {
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    z-index: 1;
+}
+
+#cloud1 {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#cloud2 {
+    margin-top: 5vh;
+    margin-left: 20vw;
+}
+
+#cloud3 {
+    margin-top: 25vh;
+    margin-left: 35vw;
+}
+
+#cloud4 {
+    margin-top: 0vh;
+    margin-left: 40vw;
+}
+
+#cloud5 {
+    margin-top: 0vh;
+    margin-left: 35vw;
+}
+
+#cloud6 {
+    margin-top: 25vh;
+    margin-left: 15vw;
+}
+
+#cloud7 {
+    margin-top: 25vh;
+    margin-left: 0vw;
+}
+
+#cloud8 {
+    margin-top: 30vh;
+    margin-left: 40vw;
+}
+
+#cloud9 {
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+#cloud10 {
+    margin-top: 0vh;
+    margin-left: 30vw;
+}
+
+#cloud11 {
+    margin-top: 25vh;
+    margin-left: 0vw;
+}
+
+#cloud12 {
+    margin-top: 35vh;
+    margin-left: 15vw;
+}
+
+#cloud13 {
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+#cloud14 {
+    margin-top: 25vh;
+    margin-left: 15vw;
+}
+
+#cloud15 {
+    margin-top: -5vh;
+    margin-left: 30vw;
+}
+
+#cloud16 {
+    margin-top: 35vh;
+    margin-left: 35vw;
+}
+
+p {
+    margin-top: 0px;
 }
 
 .leftMove {
@@ -56,6 +171,12 @@ button {
 
 .middleMove {
     animation-name: moveMiddle;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+
+.opacity {
+    animation-name: opacityFast;
     animation-duration: 4s;
     animation-timing-function: linear;
 }
@@ -79,16 +200,19 @@ button {
 }
 
 @keyframes moveLeft {
+    0% {
+        width: 30vw;
+    }
     25% {
-        width: 37.5vw;
+        width: 22.5vw;
         opacity: 0.6;
     }
     50% {
-        width: 25vw;
+        width: 15vw;
         opacity: 0.2;
     }
     75% {
-        width: 12.5vw;
+        width: 7.5vw;
         opacity: -0.2;
     }
     100% {
@@ -98,20 +222,41 @@ button {
 }
 
 @keyframes moveRight {
+    0% {
+        width: 75vw;
+    }
     25% {
-        width: 37.5vw;
+        width: 56.25vw;
         opacity: 0.6;
     }
     50% {
-        width: 25vw;
+        width: 37.5vw;
         opacity: 0.2;
     }
     75% {
-        width: 12.5vw;
+        width: 18.75vw;
         opacity: -0.2;
     }
     100% {
         width: 0vw;
         opacity: -0.2;
+    }
+}
+
+@keyframes opacityFast {
+    0% {
+        opacity: 1.0;
+    }
+    25% {
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    75% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 0.0;
     }
 }
