@@ -5,55 +5,30 @@ body {
     background-color: $bg;
     display: flex;
     flex-direction: row;
-    margin: 0px;
+    margin: 20px;
     overflow: hidden;
 }
 
-.beginOpacity {
-    opacity: 0.0;
+#leftClouds {
+    width: 35vw;
+    height: 100vh;
 }
 
-#left {
-    display: flex;
-    flex-direction: column;
-}
-
-#right {
-    display: flex;
-    flex-direction: column;
-}
-
-#topLeftClouds {
-    width: 30vw;
-    height: 50vh;
-    background-color: $cloud;
-}
-
-#bottomLeftClouds {
-    width: 30vw;
-    height: 50vh;
-    background-color: $cloud;
-}
-
-#topRightClouds {
-    width: 75vw;
-    height: 50vh;
-    background-color: $cloud;
-}
-
-#bottomRightClouds {
-    width: 75vw;
-    height: 50vh;
-    background-color: $cloud;
+#rightClouds {
+    width: 35vw;
+    height: 100vh;
 }
 
 #middle {
-    width: 0vw;
+    width: 30vw;
+    height: 100vh;
+    margin-top: 10vw;
 }
 
 p {
     font-size: 20px;
     margin-left: 30px;
+    font-family: 'Poppins', Arial;
 }
 
 button {
@@ -64,195 +39,412 @@ button {
 
 img {
     position: absolute;
-    height: 20%;
-    width: 20%;
-    z-index: 1;
+    height: 20vh;
+    width: 20vw;
 }
 
 #cloud1 {
-    margin-top: 0px;
-    margin-left: 0px;
+    margin-top: 0vh;
+    margin-left: -5vw;
 }
 
 #cloud2 {
-    margin-top: 5vh;
+    margin-top: 0vh;
     margin-left: 20vw;
 }
 
 #cloud3 {
-    margin-top: 25vh;
-    margin-left: 35vw;
+    margin-top: 15vh;
+    margin-left: 10vw;
 }
 
 #cloud4 {
-    margin-top: 0vh;
-    margin-left: 40vw;
+    margin-top: 40vh;
+    margin-left: 5vw;
 }
 
 #cloud5 {
-    margin-top: 0vh;
-    margin-left: 35vw;
+    margin-top: 60vh;
+    margin-left: -5vw;
 }
 
 #cloud6 {
-    margin-top: 25vh;
+    margin-top: 70vh;
     margin-left: 15vw;
 }
 
 #cloud7 {
-    margin-top: 25vh;
-    margin-left: 0vw;
+    margin-top: 75vh;
+    margin-left: 35vw;
 }
 
 #cloud8 {
-    margin-top: 30vh;
-    margin-left: 40vw;
+    margin-top: 0vh;
+    margin-left: 45vw;
 }
 
 #cloud9 {
-    margin-top: 10vh;
-    margin-left: 10vw;
+    margin-top: 65vh;
+    margin-left: 50vw;
 }
 
 #cloud10 {
     margin-top: 0vh;
-    margin-left: 30vw;
+    margin-left: 5vw;
 }
 
 #cloud11 {
+    margin-top: 15vh;
+    margin-left: 20vw;
+}
+
+#cloud12 {
     margin-top: 25vh;
     margin-left: 0vw;
 }
 
-#cloud12 {
-    margin-top: 35vh;
-    margin-left: 15vw;
-}
-
 #cloud13 {
-    margin-top: 5vh;
-    margin-left: 5vw;
+    margin-top: 30vh;
+    margin-left: 10vw;
 }
 
 #cloud14 {
-    margin-top: 25vh;
-    margin-left: 15vw;
+    margin-top: 50vh;
+    margin-left: 5vw;
 }
 
 #cloud15 {
-    margin-top: -5vh;
-    margin-left: 30vw;
+    margin-top: 60vh;
+    margin-left: 20vw;
 }
 
 #cloud16 {
-    margin-top: 35vh;
-    margin-left: 35vw;
+    margin-top: 70vh;
+    margin-left: 5vw;
+}
+
+.cloud1 {
+    animation: moveCloud1 4s linear;
+}
+
+.cloud2 {
+    animation: moveCloud2 4s linear;
+}
+
+.cloud3 {
+    animation: moveCloud3 4s linear;
+}
+
+.cloud4 {
+    animation: moveCloud4 4s linear;
+}
+
+.cloud5 {
+    animation: moveCloud5 4s linear;
+}
+
+.cloud6 {
+    animation: moveCloud6 4s linear;
+}
+
+.cloud7 {
+    animation: moveCloud7 4s linear;
+}
+
+.cloud8 {
+    animation: moveCloud8 4s linear;
+}
+
+.cloud9 {
+    animation: moveCloud9 4s linear;
+}
+
+.cloud1 {
+    animation: moveCloud1 4s linear;
+}
+
+.cloud10 {
+    animation: moveCloud10 4s linear;
+}
+
+.cloud11 {
+    animation: moveCloud11 4s linear;
+}
+
+.cloud12 {
+    animation: moveCloud12 4s linear;
+}
+
+.cloud13 {
+    animation: moveCloud13 4s linear;
+}
+
+.cloud14 {
+    animation: moveCloud14 4s linear;
+}
+
+.cloud15 {
+    animation: moveCloud15 4s linear;
+}
+
+.cloud16 {
+    animation: moveCloud16 4s linear;
 }
 
 p {
     margin-top: 0px;
 }
 
-.leftMove {
-    animation-name: moveLeft;
-    animation-duration: 4s;
-    animation-timing-function: linear;
+.textOpacity {
+    animation: textOpacity 3s linear;
 }
 
-.rightMove {
-    animation-name: moveRight;
-    animation-duration: 4s;
-    animation-timing-function: linear;
-}
-
-.middleMove {
-    animation-name: moveMiddle;
-    animation-duration: 4s;
-    animation-timing-function: linear;
-}
-
-.opacity {
-    animation-name: opacityFast;
-    animation-duration: 4s;
-    animation-timing-function: linear;
-}
-
-@keyframes moveMiddle {
-    0% {
-        width: 0vw;
-    }
-    25% {
-        width: 25vw;
-    }
-    50% {
-        width: 50vw;
-    }
-    75% {
-        width: 75vw;
-    }
-    100% {
-        width: 100vw;
-    }
-}
-
-@keyframes moveLeft {
-    0% {
-        width: 30vw;
-    }
-    25% {
-        width: 22.5vw;
-        opacity: 0.6;
-    }
-    50% {
-        width: 15vw;
-        opacity: 0.2;
-    }
-    75% {
-        width: 7.5vw;
-        opacity: -0.2;
-    }
-    100% {
-        width: 0vw;
-        opacity: -0.2;
-    }
-}
-
-@keyframes moveRight {
-    0% {
-        width: 75vw;
-    }
-    25% {
-        width: 56.25vw;
-        opacity: 0.6;
-    }
-    50% {
-        width: 37.5vw;
-        opacity: 0.2;
-    }
-    75% {
-        width: 18.75vw;
-        opacity: -0.2;
-    }
-    100% {
-        width: 0vw;
-        opacity: -0.2;
-    }
-}
-
-@keyframes opacityFast {
+@keyframes textOpacity {
     0% {
         opacity: 1.0;
     }
-    25% {
-        opacity: 0.0;
-    }
     50% {
         opacity: 0.0;
     }
-    75% {
+    100% {
+        opacity: 0.0;
+    }
+}
+
+@keyframes moveCloud1 {
+    0% {
+        margin-left:-5vw;
+        margin-top: 0vh;
+    }
+    50%{
         opacity: 0.0;
     }
     100% {
+        margin-left: -35vw;
+        margin-top: -20vh;
+        opacity: 0.0;
+    }
+}
+
+@keyframes moveCloud2 {
+    0% {
+        margin-left: 20vw;
+        margin-top: 0vh;
+    }
+    50%{
+        opacity: 0.0;
+    }
+    100% {
+        margin-left: -35vw;
+        margin-top: -20vh;
+        opacity: 0.0;
+    }
+}
+
+@keyframes moveCloud3 {
+    0% {
+        margin-left: 10vw;
+        margin-top: 15vh;
+    }
+    50%{
+        opacity: 0.0;
+    }
+    100% {
+        margin-left: -35vw;
+        margin-top: -10vh;
+        opacity: 0.0;
+    }
+}
+
+@keyframes moveCloud4 {
+    0% {
+        margin-left: 5vw;
+    }
+    50%{
+        opacity: 0.0;
+    }
+    100% {
+        margin-left: -35vw;
+        opacity: 0.0;
+    }
+}
+
+@keyframes moveCloud5 {
+    0% {
+        margin-left: -5vw;
+        margin-top: 60vh;
+    }
+    50%{
+        opacity: 0.0;
+    }
+    100% {
+        margin-left: -35vw;
+        margin-top: 80vh;
+        opacity: 0.0;
+    }  
+}
+
+@keyframes moveCloud6 {
+    0% {
+        margin-left: 15vw;
+        margin-top: 70vh;
+    }
+    50%{
+        opacity: 0.0;
+    }
+    100% {
+        margin-left: -35vw;
+        margin-top: 90vh;
+        opacity: 0.0;
+    }
+}
+
+@keyframes moveCloud7 {
+    0% {
+        margin-left: 35vw;
+        margin-top: 75vh;
+    }
+    50%{
+        opacity: 0.0;
+    }
+    100% {
+        margin-left: 20vw;
+        margin-top: 95vh;
+        opacity: 0.0;
+    }
+}
+
+@keyframes moveCloud8 {
+    0% {
+        margin-left: 45vw;
+        margin-top: 0vh;
+    }
+    50%{
+        opacity: 0.0;
+    }
+    100% {
+        margin-left: 55vw;
+        margin-top: -30vh;
+        opacity: 0.0;
+    }
+}
+
+@keyframes moveCloud9 {
+    0% {
+        margin-left: 50vw;
+        margin-top: 65vh;
+    }
+    50%{
+        opacity: 0.0;
+    }
+    100% {
+        margin-left: 60vw;
+        margin-top: 80vh;
+        opacity: 0.0;
+    }
+}
+
+@keyframes moveCloud10 {
+    0% {
+        margin-left: 5vw;
+        margin-top: 0vh;
+    }
+    50%{
+        opacity: 0.0;
+    }
+    100% {
+        margin-left: 45vw;
+        margin-top: -20vh;
+        opacity: 0.0;
+    }
+}
+
+@keyframes moveCloud11 {
+    0% {
+        margin-left: 20vw;
+        margin-top: 15vh;
+    }
+    50%{
+        opacity: 0.0;
+    }
+    100% {
+        margin-left: 45vw;
+        margin-top: -15vh;
+        opacity: 0.0;
+    }
+}
+
+@keyframes moveCloud12 {
+    0% {
+        margin-left: 0vw;
+        margin-top: 25vh;
+    }
+    50%{
+        opacity: 0.0;
+    }
+    100% {
+        margin-left: 45vw;
+        margin-top: 15vh;
+        opacity: 0.0;
+    }
+}
+
+@keyframes moveCloud13 {
+    0% {
+        margin-left: 10vw;
+        margin-top: 30vh;
+    }
+    50%{
+        opacity: 0.0;
+    }
+    100% {
+        margin-left: 45vw;
+        margin-top: 25vh;
+        opacity: 0.0;
+    }
+}
+
+@keyframes moveCloud14 {
+    0% {
+        margin-left: 5vw;
+        margin-top: 50vh;
+    }
+    50%{
+        opacity: 0.0;
+    }
+    100% {
+        margin-left: 45vw;
+        margin-top: 60vh;
+        opacity: 0.0;
+    }
+}
+
+@keyframes moveCloud15 {
+    0% {
+        margin-left: 20vw;
+        margin-top: 60vh;
+    }
+    50%{
+        opacity: 0.0;
+    }
+    100% {
+        margin-left: 45vw;
+        margin-top: 80vh;
+        opacity: 0.0;
+    }
+}
+
+@keyframes moveCloud16 {
+    0% {
+        margin-left: 5vw;
+        margin-top: 70vh;
+    }
+    50%{
+        opacity: 0.0;
+    }
+    100% {
+        margin-left: 45vw;
+        margin-top: 90vh;
         opacity: 0.0;
     }
 }
