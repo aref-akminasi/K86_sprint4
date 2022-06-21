@@ -81,7 +81,7 @@ body {
 }
 
 .billboard .billboard-screen {
-  width: 70rem;
+  width: 80rem;
 }
 
 .billboard .billboard-footer-container {
@@ -89,7 +89,7 @@ body {
 }
 
 .billboard .billboard-footer-container .billboard-footer {
-  width: 100rem;
+  width: 120rem;
 }
 
 .billboard .billboard-footer-container .billboard-footer-link {
