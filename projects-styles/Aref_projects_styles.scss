@@ -76,7 +76,7 @@ body {
   .billboard-footer-container {
     position: relative;
     .billboard-footer {
-      width: 120rem;
+      width: 117.5rem;
     }
 
     .billboard-footer-link {
@@ -110,7 +110,7 @@ body {
 
   .room1-header {
     margin: 0.5rem 0 0.5rem 0;
-    width: 117.3rem;
+    width: 114.8rem;
     position: relative;
   }
   .room1-header-link {
@@ -135,11 +135,14 @@ body {
 
   .room1-content {
     width: 117.3rem;
+    border-style: solid;
+    border-color: white;
+    border-width: 1rem;
   }
 
   .room1-footer {
     margin: 0.5rem 0 0.5rem 0;
-    width: 117.3rem;
+    width: 114.8rem;
     position: relative;
   }
   .room1-footer-link {
