@@ -35,6 +35,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   min-width: 125rem;
   margin: 0;
 }
@@ -61,7 +65,7 @@ body {
 
 .billboard .billboard-screen-container .billboard-name {
   position: absolute;
-  top: 10rem;
+  top: 9rem;
   right: 33rem;
   font-family: Poppins-Bold;
   font-size: 2.5rem;
@@ -69,7 +73,7 @@ body {
 
 .billboard .billboard-screen-container .billboard-text {
   position: absolute;
-  top: 15rem;
+  top: 14rem;
   max-width: 30rem;
   right: 8.2rem;
   font-family: Poppins-Light;
@@ -116,5 +120,81 @@ body {
   font-size: 1.5rem;
   bottom: 1rem;
   right: 50rem;
+}
+
+.room1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.room1 .room1-header {
+  margin: 0.5rem 0 0.5rem 0;
+  width: 117.3rem;
+  position: relative;
+}
+
+.room1 .room1-header-link {
+  color: black;
+}
+
+.room1 .room1-header-link:hover {
+  color: gray;
+}
+
+.room1 .room1-header-text {
+  position: absolute;
+  font-family: Poppins-Light;
+  font-size: 1.5rem;
+  bottom: 0.2rem;
+  right: 53rem;
+}
+
+.room1 .room1-header-arrow {
+  position: absolute;
+  bottom: 0.3rem;
+  right: 62rem;
+  width: 2rem;
+}
+
+.room1 .room1-content {
+  width: 117.3rem;
+}
+
+.room1 .room1-footer {
+  margin: 0.5rem 0 0.5rem 0;
+  width: 117.3rem;
+  position: relative;
+}
+
+.room1 .room1-footer-link {
+  color: black;
+}
+
+.room1 .room1-footer-link:hover {
+  color: gray;
+}
+
+.room1 .room1-footer-text {
+  position: absolute;
+  font-family: Poppins-Light;
+  font-size: 1.5rem;
+  bottom: 0.2rem;
+  right: 52rem;
+}
+
+.room1 .room1-footer-arrow {
+  position: absolute;
+  bottom: 0.3rem;
+  right: 63rem;
+  width: 2rem;
 }
 /*# sourceMappingURL=Aref_projects_styles.css.map */
