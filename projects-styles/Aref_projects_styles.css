@@ -35,7 +35,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-width: 100rem;
+  min-width: 125rem;
   margin: 0;
 }
 
@@ -55,35 +55,36 @@ body {
 
 .billboard .billboard-screen-container {
   position: relative;
-  top: 1.5rem;
+  top: 2rem;
+  z-index: 1;
 }
 
 .billboard .billboard-screen-container .billboard-name {
   position: absolute;
-  top: 5rem;
-  right: 28rem;
+  top: 10rem;
+  right: 33rem;
   font-family: Poppins-Bold;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .billboard .billboard-screen-container .billboard-text {
   position: absolute;
-  top: 10rem;
+  top: 15rem;
   max-width: 30rem;
-  right: 2rem;
+  right: 8.2rem;
   font-family: Poppins-Light;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .billboard .billboard-screen-container .billboard-img {
   position: absolute;
-  top: 8.5rem;
-  left: 7rem;
-  width: 15rem;
+  top: 12rem;
+  left: 12rem;
+  width: 18rem;
 }
 
 .billboard .billboard-screen {
-  width: 60rem;
+  width: 80rem;
 }
 
 .billboard .billboard-footer-container {
@@ -91,7 +92,7 @@ body {
 }
 
 .billboard .billboard-footer-container .billboard-footer {
-  width: 80rem;
+  width: 120rem;
 }
 
 .billboard .billboard-footer-container .billboard-footer-link {
@@ -104,16 +105,16 @@ body {
 
 .billboard .billboard-footer-container .billboard-footer-arrow {
   position: absolute;
-  bottom: 1rem;
-  right: 47.5rem;
+  bottom: 1.3rem;
+  right: 67.5rem;
   width: 2rem;
 }
 
 .billboard .billboard-footer-container .billboard-footer-text {
   position: absolute;
   font-family: Poppins-Light;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   bottom: 1rem;
-  right: 32rem;
+  right: 50rem;
 }
 /*# sourceMappingURL=Aref_projects_styles.css.map */
