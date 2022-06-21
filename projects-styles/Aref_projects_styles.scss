@@ -1,0 +1,99 @@
+$bg-color: #f1fbfd;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url(../fonts/Poppins-Light.ttf);
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $bg-color;
+  display: flex;
+  justify-content: center;
+}
+
+.billboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .billboard-screen-container {
+    position: relative;
+    top: 1.5rem;
+    .billboard-name {
+      position: absolute;
+      top: 5rem;
+      right: 28rem;
+      font-family: Poppins-Bold;
+      font-size: 2rem;
+    }
+    .billboard-text {
+      position: absolute;
+      top: 10rem;
+      max-width: 30rem;
+      right: 2rem;
+      font-family: Poppins-Light;
+      font-size: 1.3rem;
+    }
+    .billboard-img {
+      position: absolute;
+      top: 8.5rem;
+      left: 7rem;
+      width: 15rem;
+    }
+  }
+
+  .billboard-screen {
+    width: 60rem;
+  }
+  .billboard-footer-container {
+    position: relative;
+    .billboard-footer {
+      width: 80rem;
+    }
+
+    .billboard-footer-link {
+      color: black;
+    }
+    .billboard-footer-link:hover {
+      color: gray;
+    }
+
+    .billboard-footer-arrow {
+      position: absolute;
+      bottom: 1rem;
+      right: 47.5rem;
+      width: 2rem;
+    }
+    .billboard-footer-text {
+      position: absolute;
+      font-family: Poppins-Light;
+      font-size: 1.3rem;
+      bottom: 1rem;
+      right: 32rem;
+    }
+  }
+}
