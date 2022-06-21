@@ -1,6 +1,11 @@
 $bg: #dcf0fa;
 $cloud:	#DBF3FA;
 
+@font-face {
+    font-family: "Poppins";
+    src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+}
+
 body { 
     background-color: $bg;
     display: flex;
@@ -28,7 +33,7 @@ body {
 p {
     font-size: 20px;
     margin-left: 30px;
-    font-family: 'Poppins', Arial;
+    font-family: "Poppins", Arial;
 }
 
 button {
@@ -74,51 +79,41 @@ img {
 }
 
 #cloud7 {
-    margin-top: 75vh;
-    margin-left: 35vw;
-}
-
-#cloud8 {
     margin-top: 0vh;
     margin-left: 45vw;
 }
 
-#cloud9 {
-    margin-top: 65vh;
-    margin-left: 50vw;
-}
-
-#cloud10 {
+#cloud8 {
     margin-top: 0vh;
     margin-left: 5vw;
 }
 
-#cloud11 {
+#cloud9 {
     margin-top: 15vh;
     margin-left: 20vw;
 }
 
-#cloud12 {
+#cloud10 {
     margin-top: 25vh;
     margin-left: 0vw;
 }
 
-#cloud13 {
+#cloud11 {
     margin-top: 30vh;
     margin-left: 10vw;
 }
 
-#cloud14 {
+#cloud12 {
     margin-top: 50vh;
     margin-left: 5vw;
 }
 
-#cloud15 {
+#cloud13 {
     margin-top: 60vh;
     margin-left: 20vw;
 }
 
-#cloud16 {
+#cloud14 {
     margin-top: 70vh;
     margin-left: 5vw;
 }
@@ -148,46 +143,34 @@ img {
 }
 
 .cloud7 {
-    animation: moveCloud7 4s linear;
-}
-
-.cloud8 {
     animation: moveCloud8 4s linear;
 }
 
-.cloud9 {
-    animation: moveCloud9 4s linear;
-}
-
-.cloud1 {
-    animation: moveCloud1 4s linear;
-}
-
-.cloud10 {
+.cloud8 {
     animation: moveCloud10 4s linear;
 }
 
-.cloud11 {
+.cloud9 {
     animation: moveCloud11 4s linear;
 }
 
-.cloud12 {
+.cloud10 {
     animation: moveCloud12 4s linear;
 }
 
-.cloud13 {
+.cloud11 {
     animation: moveCloud13 4s linear;
 }
 
-.cloud14 {
+.cloud12 {
     animation: moveCloud14 4s linear;
 }
 
-.cloud15 {
+.cloud13 {
     animation: moveCloud15 4s linear;
 }
 
-.cloud16 {
+.cloud14 {
     animation: moveCloud16 4s linear;
 }
 

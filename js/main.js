@@ -15,8 +15,6 @@ document.getElementById('button').addEventListener('click', function () {
     document.querySelector('#cloud12').classList.add('cloud12');
     document.querySelector('#cloud13').classList.add('cloud13');
     document.querySelector('#cloud14').classList.add('cloud14');
-    document.querySelector('#cloud15').classList.add('cloud15');
-    document.querySelector('#cloud16').classList.add('cloud16');
 });
 
 function delay (URL) {
