@@ -32,6 +32,8 @@ body {
   background-color: $bg-color;
   display: flex;
   justify-content: center;
+  min-width: 100rem;
+  margin: 0;
 }
 
 .billboard {
@@ -67,12 +69,12 @@ body {
   }
 
   .billboard-screen {
-    width: 80rem;
+    width: 60rem;
   }
   .billboard-footer-container {
     position: relative;
     .billboard-footer {
-      width: 120rem;
+      width: 80rem;
     }
 
     .billboard-footer-link {

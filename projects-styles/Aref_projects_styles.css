@@ -35,6 +35,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  min-width: 100rem;
+  margin: 0;
 }
 
 .billboard {
@@ -81,7 +83,7 @@ body {
 }
 
 .billboard .billboard-screen {
-  width: 80rem;
+  width: 60rem;
 }
 
 .billboard .billboard-footer-container {
@@ -89,7 +91,7 @@ body {
 }
 
 .billboard .billboard-footer-container .billboard-footer {
-  width: 120rem;
+  width: 80rem;
 }
 
 .billboard .billboard-footer-container .billboard-footer-link {
