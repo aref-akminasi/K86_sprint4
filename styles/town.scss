@@ -8,62 +8,253 @@ $arefBorder: #B2202A;
 $building: #3F2A2B;
 $buildingBorder: #322122;
 
-
+/* GENERAL */
 body {
     background-color: $bg;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     animation-name: fadeIn;
     animation-duration: 2s;
     animation-timing-function: linear;
+    overflow: hidden;
+    pointer-events: none;
 }
 
 #town {
-    background-image: url('../images/Eiland_yow.svg');
-    height: 750px;
-    width: 750px;
+    background-image: url('../images/Eiland.svg');
+    height: 48rem;
+    width: 48rem;
     margin: auto;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: -2;
 }
 
-#buildingOne {
+/* OUR BUILDINGS */
+/* THIJS */
+#thijsBuilding {
     position: absolute;
-    height: 150px;
-    object-fit: contain;
-    margin-top: 80px;
-    margin-left: 240px;
+    height: 4.5rem;
+    margin-top: 10rem;
+    margin-left: 25rem;
+    z-index: -1;
+    pointer-events: all;
 }
 
-#buildingTwo {
+/* MAUD */
+#maudBuilding {
     position: absolute;
-    height: 280px;
-    object-fit: contain;
-    margin-top: 250px;
-    margin-left: 220px;
+    height: 8rem;
+    margin-top: 10.5rem;
+    margin-left: 16rem;
+    z-index: -1;
+    pointer-events: all;
 }
 
-/*
-#rowOne {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 80px;
+/* MAARTJE */
+#maartjeBuilding {
+    position: absolute;
+    height: 8rem;
+    margin-top: 15rem;
+    margin-left: 39rem;
+    z-index: -1;
+    pointer-events: all;
 }
 
-#rowTwo, #rowThree, #rowFour, #rowFive, #rowSix {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: -193px;
+#maartjeGloed {
+    position: absolute;
+    opacity: 1.0;
+    height: 16rem;
+    margin-top: 12rem;
+    margin-left: 16rem;
+    z-index: -2;
+    pointer-events: none;
+    display: none;
 }
-*/
+
+/* MAARTJE */
+#tomBuilding {
+    position: absolute;
+    height: 9rem;
+    margin-top: 25rem;
+    margin-left: 20rem;
+    z-index: -1;
+    pointer-events: all;
+}
+
+/* AREF */
+#arefBuilding {
+    position: absolute;
+    height: 7rem;
+    margin-top: 17rem;
+    margin-left: 24rem;
+    z-index: -1;
+    pointer-events: all;
+}
+
+/* RANDOM BUILDINGS */
+#huis1 {
+    position: absolute;
+    height: 3rem;
+    margin-top: 24rem;
+    margin-left: 12rem;
+    z-index: -1;
+    pointer-events: all;
+}
+
+#huis2 {
+    position: absolute;
+    height: 3rem;
+    margin-top: 26rem;
+    margin-left: 16rem;
+    z-index: -1;
+    pointer-events: all;
+}
+
+#huis3 {
+    position: absolute;
+    height: 3rem;
+    margin-top: 14rem;
+    margin-left: 32rem;
+    z-index: -1;
+    pointer-events: all;
+}
+
+#huis4 {
+    position: absolute;
+    height: 3rem;
+    margin-top: 16rem;
+    margin-left: 34rem;
+    z-index: -1;
+    pointer-events: all;
+}
+
+#huis5 {
+    position: absolute;
+    height: 3rem;
+    margin-top: 23rem;
+    margin-left: 34rem;
+    z-index: -1;
+    pointer-events: all;
+}
+
+#huis6 {
+    position: absolute;
+    height: 3rem;
+    margin-top: 25rem;
+    margin-left: 31rem;
+    z-index: -1;
+    pointer-events: all;
+}
+
+/* STREETSIGN */
+/* GENERAL */
+#streetNames {
+    margin: auto;
+    margin-bottom: -5rem;
+    height: 6rem;
+}
+
+/* THIJS */
+#thijsPlein {
+    height: 6rem;
+    display: none;
+    animation: fadeIn 0.5s linear;
+}
+
+/* AREF */
+#arefHof {
+    height: 6rem;
+    display: none;
+    animation: fadeIn 0.5s linear;
+}
+
+/* MAUD */
+#maudGracht {
+    height: 6rem;
+    display: none;
+    animation: fadeIn 0.5s linear;
+}
+
+/* TOM */
+#tomStraat {
+    height: 6rem;
+    display: none;
+    animation: fadeIn 0.5s linear;
+}
+
+/* MAARTJE */
+#maartjeLaan {
+    height: 6rem;
+    display: none;
+    animation: fadeIn 0.5s linear;
+}
+
+/* CLOUDS */
+#townCloud1 {
+    height: 3rem;
+    margin-top: -35rem;
+    margin-left: -10rem;
+    position: absolute;
+    animation: cloudMoveRight 50s linear infinite;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+#townCloud2 {
+    height: 3rem;
+    margin-top: -10rem;
+    margin-left: 100rem;
+    position: absolute;
+    animation: cloudMoveLeft 90s linear infinite;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+#townCloud3 {
+    height: 3rem;
+    margin-top: 10rem;
+    margin-left: -10rem;
+    position: absolute;
+    animation: cloudMoveRight 120s linear infinite;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+#townCloud4 {
+    height: 3rem;
+    margin-top: 30rem;
+    margin-left: 100rem;
+    position: absolute;
+    animation: cloudMoveLeft 70s linear infinite;
+    opacity: 0.6;
+    pointer-events: none;
+}
 
 @keyframes fadeIn {
-    0%{
+    0% {
         opacity: 0;
     }
-    100%{
+    100% {
         opacity: 1.0;
+    }
+}
+
+@keyframes cloudMoveRight {
+    0% {
+        margin-left: -10rem;
+    }
+    100% {
+        margin-left: 100rem;
+    }
+}
+
+@keyframes cloudMoveLeft {
+    0% {
+        margin-left: 100rem;
+    }
+    100% {
+        margin-left: -10rem;
     }
 }

@@ -20,3 +20,4 @@ document.getElementById('button').addEventListener('click', function () {
 function delay (URL) {
     setTimeout( function() { window.location = URL }, 2500);
 }
+

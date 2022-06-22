@@ -54,6 +54,7 @@ img {
     position: absolute;
     height: 22%;
     width: 22%;
+    opacity: 0.6;
 }
 
 #cloud1 {
@@ -103,7 +104,7 @@ img {
 
 #cloud10 {
     margin-top: 25vh;
-    margin-left: 5vw;
+    margin-left: 0vw;
 }
 
 #cloud11 {
@@ -334,7 +335,7 @@ img {
     
     @keyframes moveCloud10 {
         0% {
-            margin-left: 5vw;
+            margin-left: 0vw;
             margin-top: 25vh;
         }
         50%{
