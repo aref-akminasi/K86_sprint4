@@ -6,16 +6,17 @@ $bg-color: #f1fbfd;
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url(../fonts/Poppins-Bold.ttf);
+  src: url(../project-fonts/Poppins-Bold.ttf);
 }
 
 @font-face {
   font-family: Poppins-Light;
-  src: url(../fonts/Poppins-Light.ttf);
+  src: url(../project-fonts/Poppins-Light.ttf);
 }
 
 p {
@@ -163,6 +164,10 @@ body {
     bottom: 0.3rem;
     right: 63rem;
     width: 2rem;
+  }
+
+  .onderkant-img {
+    width: 122.8rem;
   }
 
   /* comment */

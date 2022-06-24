@@ -1,20 +1,21 @@
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url(../fonts/Poppins-Bold.ttf);
+  src: url(../project-fonts/Poppins-Bold.ttf);
 }
 
 @font-face {
   font-family: Poppins-Light;
-  src: url(../fonts/Poppins-Light.ttf);
+  src: url(../project-fonts/Poppins-Light.ttf);
 }
 
 p {
@@ -33,12 +34,12 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   min-width: 125rem;
   margin: 0;
 }
@@ -49,11 +50,11 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
 }
 
@@ -127,12 +128,12 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   /* comment */
 }
@@ -200,5 +201,9 @@ body {
   bottom: 0.3rem;
   right: 63rem;
   width: 2rem;
+}
+
+.room1 .onderkant-img {
+  width: 122.8rem;
 }
 /*# sourceMappingURL=Aref_projects_styles.css.map */
