@@ -226,7 +226,7 @@ button:hover {
 /* STREETSIGN */
 /* GENERAL */
 #streetNames {
-  margin: auto;
+  margin-left: 37.5%;
   margin-bottom: -3rem;
   height: 6rem;
   margin-top: -2rem;
@@ -234,46 +234,41 @@ button:hover {
 
 /* THIJS */
 #thijsPlein {
+  position: absolute;
   height: 6rem;
-  display: none;
-  -webkit-animation: fadeIn 0.5s linear;
-          animation: fadeIn 0.5s linear;
+  opacity: 0;
   transition-duration: 0.3s;
 }
 
 /* AREF */
 #arefHof {
+  position: absolute;
   height: 6rem;
-  display: none;
-  -webkit-animation: fadeIn 0.5s linear;
-          animation: fadeIn 0.5s linear;
+  opacity: 0;
   transition-duration: 0.3s;
 }
 
 /* MAUD */
 #maudGracht {
+  position: absolute;
   height: 6rem;
-  display: none;
-  -webkit-animation: fadeIn 0.5s linear;
-          animation: fadeIn 0.5s linear;
+  opacity: 0;
   transition-duration: 0.3s;
 }
 
 /* TOM */
 #tomStraat {
+  position: absolute;
   height: 6rem;
-  display: none;
-  -webkit-animation: fadeIn 0.5s linear;
-          animation: fadeIn 0.5s linear;
+  opacity: 0;
   transition-duration: 0.3s;
 }
 
 /* MAARTJE */
 #maartjeLaan {
+  position: absolute;
   height: 6rem;
-  display: none;
-  -webkit-animation: fadeIn 0.5s linear;
-          animation: fadeIn 0.5s linear;
+  opacity: 0;
   transition-duration: 0.3s;
 }
 
