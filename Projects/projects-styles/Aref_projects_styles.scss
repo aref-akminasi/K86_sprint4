@@ -1,0 +1,174 @@
+$bg-color: #f1fbfd;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(../project-fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url(../project-fonts/Poppins-Light.ttf);
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $bg-color;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 125rem;
+  margin: 0;
+}
+
+.billboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .billboard-screen-container {
+    position: relative;
+    top: 2rem;
+    z-index: 1;
+    .billboard-name {
+      position: absolute;
+      top: 9rem;
+      right: 33rem;
+      font-family: Poppins-Bold;
+      font-size: 2.5rem;
+    }
+    .billboard-text {
+      position: absolute;
+      top: 14rem;
+      max-width: 30rem;
+      right: 8.2rem;
+      font-family: Poppins-Light;
+      font-size: 1.5rem;
+    }
+    .billboard-img {
+      position: absolute;
+      top: 12rem;
+      left: 12rem;
+      width: 18rem;
+    }
+  }
+
+  .billboard-screen {
+    width: 80rem;
+  }
+  .billboard-footer-container {
+    position: relative;
+    .billboard-footer {
+      width: 117.5rem;
+    }
+
+    .billboard-footer-link {
+      color: black;
+    }
+    .billboard-footer-link:hover {
+      color: gray;
+    }
+
+    .billboard-footer-arrow {
+      position: absolute;
+      bottom: 1.3rem;
+      right: 67.5rem;
+      width: 2rem;
+    }
+    .billboard-footer-text {
+      position: absolute;
+      font-family: Poppins-Light;
+      font-size: 1.5rem;
+      bottom: 1rem;
+      right: 50rem;
+    }
+  }
+}
+
+.room1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+
+  .room1-header {
+    margin: 0.5rem 0 0.5rem 0;
+    width: 114.8rem;
+    position: relative;
+  }
+  .room1-header-link {
+    color: black;
+  }
+  .room1-header-link:hover {
+    color: gray;
+  }
+  .room1-header-text {
+    position: absolute;
+    font-family: Poppins-Light;
+    font-size: 1.5rem;
+    bottom: 0.2rem;
+    right: 53rem;
+  }
+  .room1-header-arrow {
+    position: absolute;
+    bottom: 0.3rem;
+    right: 62rem;
+    width: 2rem;
+  }
+
+  .room1-content {
+    width: 117.3rem;
+    border-style: solid;
+    border-color: white;
+    border-width: 1rem;
+  }
+
+  .room1-footer {
+    margin: 0.5rem 0 0.5rem 0;
+    width: 114.8rem;
+    position: relative;
+  }
+  .room1-footer-link {
+    color: black;
+  }
+  .room1-footer-link:hover {
+    color: gray;
+  }
+  .room1-footer-text {
+    position: absolute;
+    font-family: Poppins-Light;
+    font-size: 1.5rem;
+    bottom: 0.2rem;
+    right: 52rem;
+  }
+  .room1-footer-arrow {
+    position: absolute;
+    bottom: 0.3rem;
+    right: 63rem;
+    width: 2rem;
+  }
+
+  .onderkant-img {
+    width: 122.8rem;
+  }
+
+  /* comment */
+}
