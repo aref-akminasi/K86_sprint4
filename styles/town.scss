@@ -63,6 +63,7 @@ button:hover {
     pointer-events: none;
     opacity: 0.0;
     animation: flicker 1s 4 linear;
+    transition-duration: 0.3s;
 }
 
 /* MAUD */
@@ -84,6 +85,7 @@ button:hover {
     pointer-events: none;
     opacity: 0.0;
     animation: flicker 1s 4 linear;
+    transition-duration: 0.3s;
 }
 
 /* MAARTJE */
@@ -105,6 +107,7 @@ button:hover {
     pointer-events: none;
     opacity: 0.0;
     animation: flicker 1s 4 linear;
+    transition-duration: 0.3s;
 }
 
 /* MAARTJE */
@@ -126,6 +129,7 @@ button:hover {
     pointer-events: none;
     opacity: 0.0;
     animation: flicker 1s 4 linear;
+    transition-duration: 0.3s;
 }
 
 /* AREF */
@@ -147,6 +151,16 @@ button:hover {
     pointer-events: none;
     opacity: 0.0;
     animation: flicker 1s 4 linear;
+    transition-duration: 0.3s;
+}
+
+/* TITLE MAT-TOWN */
+#MATTown {
+    position: absolute;
+    height: 17rem;
+    margin-left: 24rem;
+    margin-top: 4rem;
+    z-index: -3;
 }
 
 /* RANDOM BUILDINGS */
@@ -208,8 +222,9 @@ button:hover {
 /* GENERAL */
 #streetNames {
     margin: auto;
-    margin-bottom: -5rem;
+    margin-bottom: -3rem;
     height: 6rem;
+    margin-top: -2rem;
 }
 
 /* THIJS */
@@ -217,6 +232,7 @@ button:hover {
     height: 6rem;
     display: none;
     animation: fadeIn 0.5s linear;
+    transition-duration: 0.3s;
 }
 
 /* AREF */
@@ -224,6 +240,7 @@ button:hover {
     height: 6rem;
     display: none;
     animation: fadeIn 0.5s linear;
+    transition-duration: 0.3s;
 }
 
 /* MAUD */
@@ -231,6 +248,7 @@ button:hover {
     height: 6rem;
     display: none;
     animation: fadeIn 0.5s linear;
+    transition-duration: 0.3s;
 }
 
 /* TOM */
@@ -238,6 +256,7 @@ button:hover {
     height: 6rem;
     display: none;
     animation: fadeIn 0.5s linear;
+    transition-duration: 0.3s;
 }
 
 /* MAARTJE */
@@ -245,6 +264,7 @@ button:hover {
     height: 6rem;
     display: none;
     animation: fadeIn 0.5s linear;
+    transition-duration: 0.3s;
 }
 
 /* CLOUDS */
