@@ -351,6 +351,7 @@ p {
 .room2-section .room2-container .room2-text-section .room2-text {
   font-family: Poppins-Light;
   font-size: 1.3rem;
+  text-align: justify;
 }
 
 .room2-section .room2-container .room2-photo-section {
@@ -367,7 +368,7 @@ p {
 
 .room2-section .room2-container .room2-notes-section {
   position: absolute;
-  bottom: 10rem;
+  bottom: 8rem;
   left: 27rem;
 }
 
@@ -440,6 +441,7 @@ p {
 .room3-section .room3-container .room3-text-section .room3-text {
   font-family: Poppins-Light;
   font-size: 1.3rem;
+  text-align: justify;
 }
 
 .room3-section .room3-container .room3-photo-section {
@@ -455,7 +457,7 @@ p {
 
 .room3-section .room3-container .room3-notes-section {
   position: absolute;
-  bottom: 7rem;
+  bottom: 3rem;
   left: 27rem;
 }
 
@@ -513,7 +515,7 @@ p {
 }
 
 .basement-section .basement-container .basement-left-section:hover {
-  bottom: 14rem;
+  left: 9rem;
 }
 
 .basement-section .basement-container .basement-right-section {
@@ -529,6 +531,6 @@ p {
 }
 
 .basement-section .basement-container .basement-right-section:hover {
-  bottom: 14rem;
+  right: 9rem;
 }
 /*# sourceMappingURL=Aref_projects_styles.css.map */
