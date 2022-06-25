@@ -140,11 +140,250 @@ p {
   }
 }
 
-
-.room1-container{
+.room1-section {
   display: flex;
   justify-content: center;
-  .room1 {
+  .room1-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
     width: 120rem;
+    .room1 {
+      width: 120rem;
+    }
+    .lamp {
+      position: absolute;
+      width: 10rem;
+      top: 2rem;
+    }
+    .room1-text-section {
+      position: absolute;
+      max-width: 50rem;
+      top: 6rem;
+      left: 12rem;
+      .room1-text-title {
+        font-family: Poppins-Bold;
+        font-size: 2rem;
+      }
+      .room1-text {
+        font-family: Poppins-Light;
+        font-size: 1.3rem;
+      }
+    }
+    .room1-photo-section {
+      position: absolute;
+      max-width: 40rem;
+      top: 8rem;
+      right: 12rem;
+      img {
+        width: 40rem;
+      }
+    }
+    .room1-notes-section {
+      position: absolute;
+      bottom: 5rem;
+      left: 27rem;
+      img {
+        width: 40rem;
+      }
+    }
+    .room1-left-section {
+      position: absolute;
+      bottom: 2rem;
+      left: 5rem;
+      img {
+        width:15rem;
+      }
+    }
+    .room1-right-section {
+      position: absolute;
+      bottom: 2.5rem;
+      right:  7rem;
+      img {
+        width:6rem;
+      }
+    }
+  }
+  
+}
+
+
+
+.room2-section {
+  display: flex;
+  justify-content: center;
+  .room2-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 120rem;
+    .room2 {
+      width: 120rem;
+    }
+    .lamp {
+      position: absolute;
+      width: 10rem;
+      top: 2rem;
+    }
+    .room2-text-section {
+      position: absolute;
+      max-width: 50rem;
+      top: 6rem;
+      left: 12rem;
+      .room2-text-title {
+        font-family: Poppins-Bold;
+        font-size: 2rem;
+      }
+      .room2-text {
+        font-family: Poppins-Light;
+        font-size: 1.3rem;
+      }
+    }
+    .room2-photo-section {
+      position: absolute;
+      max-width: 40rem;
+      top: 8rem;
+      right: 12rem;
+      iframe {
+        
+        width: 40rem;
+        height: 30rem;
+      }
+    }
+    .room2-notes-section {
+      position: absolute;
+      bottom: 10rem;
+      left: 27rem;
+      img {
+        width: 40rem;
+      }
+    }
+    .room2-left-section {
+      position: absolute;
+      bottom: 2rem;
+      left: 5rem;
+      img {
+        width:7rem;
+      }
+    }
+    .room2-right-section {
+      position: absolute;
+      bottom: 0rem;
+      right:  5rem;
+      img {
+        width: 25rem;
+      }
+    }
+  }
+  
+}
+
+
+.room3-section {
+  display: flex;
+  justify-content: center;
+  .room3-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 120rem;
+    .room3 {
+      width: 120rem;
+    }
+    .lamp {
+      position: absolute;
+      width: 10rem;
+      top: 2rem;
+    }
+    .room3-text-section {
+      position: absolute;
+      max-width: 50rem;
+      top: 6rem;
+      left: 12rem;
+      .room3-text-title {
+        font-family: Poppins-Bold;
+        font-size: 2rem;
+      }
+      .room3-text {
+        font-family: Poppins-Light;
+        font-size: 1.3rem;
+      }
+    }
+    .room3-photo-section {
+      position: absolute;
+      max-width: 40rem;
+      top: 18rem;
+      right: 12rem;
+      img {
+        width: 40rem;
+      }
+    }
+    .room3-notes-section {
+      position: absolute;
+      bottom: 7rem;
+      left: 27rem;
+      img {
+        width: 40rem;
+      }
+    }
+    .room3-left-section {
+      position: absolute;
+      bottom: 2rem;
+      left: 5rem;
+      img {
+        width:7rem;
+      }
+    }
+    .room3-right-section {
+      position: absolute;
+      bottom: 2rem;
+      right:  5rem;
+      img {
+        width: 15rem;
+      }
+    }
+  }
+  
+}
+
+.basement-section {
+  display: flex;
+  justify-content: center;
+  .basement-container {
+   position: relative;
+    .basement {
+      width: 125rem;
+    }
+    .basement-left-section {
+      position: absolute;
+      left: 10rem;
+      bottom: 13rem;
+      transition-duration: 0.3s;
+      img {
+        width: 20rem;
+      }
+    }
+
+    .basement-left-section:hover {
+     bottom: 14rem;
+     
+    }
+
+
+    .basement-right-section {
+      position: absolute;
+      right: 10rem;
+      bottom: 13rem;
+      transition-duration: 0.3s;
+      img {
+        width: 20rem;
+      }
+    }
+
+    .basement-right-section:hover {
+      bottom: 14rem;
+      
+     }
+
   }
 }

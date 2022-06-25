@@ -176,7 +176,7 @@ p {
   margin: 0.5rem 3rem 0.5rem 3rem;
 }
 
-.room1-container {
+.room1-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -185,7 +185,308 @@ p {
           justify-content: center;
 }
 
-.room1-container .room1 {
+.room1-section .room1-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
   width: 120rem;
+}
+
+.room1-section .room1-container .room1 {
+  width: 120rem;
+}
+
+.room1-section .room1-container .lamp {
+  position: absolute;
+  width: 10rem;
+  top: 2rem;
+}
+
+.room1-section .room1-container .room1-text-section {
+  position: absolute;
+  max-width: 50rem;
+  top: 6rem;
+  left: 12rem;
+}
+
+.room1-section .room1-container .room1-text-section .room1-text-title {
+  font-family: Poppins-Bold;
+  font-size: 2rem;
+}
+
+.room1-section .room1-container .room1-text-section .room1-text {
+  font-family: Poppins-Light;
+  font-size: 1.3rem;
+}
+
+.room1-section .room1-container .room1-photo-section {
+  position: absolute;
+  max-width: 40rem;
+  top: 8rem;
+  right: 12rem;
+}
+
+.room1-section .room1-container .room1-photo-section img {
+  width: 40rem;
+}
+
+.room1-section .room1-container .room1-notes-section {
+  position: absolute;
+  bottom: 5rem;
+  left: 27rem;
+}
+
+.room1-section .room1-container .room1-notes-section img {
+  width: 40rem;
+}
+
+.room1-section .room1-container .room1-left-section {
+  position: absolute;
+  bottom: 2rem;
+  left: 5rem;
+}
+
+.room1-section .room1-container .room1-left-section img {
+  width: 15rem;
+}
+
+.room1-section .room1-container .room1-right-section {
+  position: absolute;
+  bottom: 2.5rem;
+  right: 7rem;
+}
+
+.room1-section .room1-container .room1-right-section img {
+  width: 6rem;
+}
+
+.room2-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.room2-section .room2-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 120rem;
+}
+
+.room2-section .room2-container .room2 {
+  width: 120rem;
+}
+
+.room2-section .room2-container .lamp {
+  position: absolute;
+  width: 10rem;
+  top: 2rem;
+}
+
+.room2-section .room2-container .room2-text-section {
+  position: absolute;
+  max-width: 50rem;
+  top: 6rem;
+  left: 12rem;
+}
+
+.room2-section .room2-container .room2-text-section .room2-text-title {
+  font-family: Poppins-Bold;
+  font-size: 2rem;
+}
+
+.room2-section .room2-container .room2-text-section .room2-text {
+  font-family: Poppins-Light;
+  font-size: 1.3rem;
+}
+
+.room2-section .room2-container .room2-photo-section {
+  position: absolute;
+  max-width: 40rem;
+  top: 8rem;
+  right: 12rem;
+}
+
+.room2-section .room2-container .room2-photo-section iframe {
+  width: 40rem;
+  height: 30rem;
+}
+
+.room2-section .room2-container .room2-notes-section {
+  position: absolute;
+  bottom: 10rem;
+  left: 27rem;
+}
+
+.room2-section .room2-container .room2-notes-section img {
+  width: 40rem;
+}
+
+.room2-section .room2-container .room2-left-section {
+  position: absolute;
+  bottom: 2rem;
+  left: 5rem;
+}
+
+.room2-section .room2-container .room2-left-section img {
+  width: 7rem;
+}
+
+.room2-section .room2-container .room2-right-section {
+  position: absolute;
+  bottom: 0rem;
+  right: 5rem;
+}
+
+.room2-section .room2-container .room2-right-section img {
+  width: 25rem;
+}
+
+.room3-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.room3-section .room3-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 120rem;
+}
+
+.room3-section .room3-container .room3 {
+  width: 120rem;
+}
+
+.room3-section .room3-container .lamp {
+  position: absolute;
+  width: 10rem;
+  top: 2rem;
+}
+
+.room3-section .room3-container .room3-text-section {
+  position: absolute;
+  max-width: 50rem;
+  top: 6rem;
+  left: 12rem;
+}
+
+.room3-section .room3-container .room3-text-section .room3-text-title {
+  font-family: Poppins-Bold;
+  font-size: 2rem;
+}
+
+.room3-section .room3-container .room3-text-section .room3-text {
+  font-family: Poppins-Light;
+  font-size: 1.3rem;
+}
+
+.room3-section .room3-container .room3-photo-section {
+  position: absolute;
+  max-width: 40rem;
+  top: 18rem;
+  right: 12rem;
+}
+
+.room3-section .room3-container .room3-photo-section img {
+  width: 40rem;
+}
+
+.room3-section .room3-container .room3-notes-section {
+  position: absolute;
+  bottom: 7rem;
+  left: 27rem;
+}
+
+.room3-section .room3-container .room3-notes-section img {
+  width: 40rem;
+}
+
+.room3-section .room3-container .room3-left-section {
+  position: absolute;
+  bottom: 2rem;
+  left: 5rem;
+}
+
+.room3-section .room3-container .room3-left-section img {
+  width: 7rem;
+}
+
+.room3-section .room3-container .room3-right-section {
+  position: absolute;
+  bottom: 2rem;
+  right: 5rem;
+}
+
+.room3-section .room3-container .room3-right-section img {
+  width: 15rem;
+}
+
+.basement-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.basement-section .basement-container {
+  position: relative;
+}
+
+.basement-section .basement-container .basement {
+  width: 125rem;
+}
+
+.basement-section .basement-container .basement-left-section {
+  position: absolute;
+  left: 10rem;
+  bottom: 13rem;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.basement-section .basement-container .basement-left-section img {
+  width: 20rem;
+}
+
+.basement-section .basement-container .basement-left-section:hover {
+  bottom: 14rem;
+}
+
+.basement-section .basement-container .basement-right-section {
+  position: absolute;
+  right: 10rem;
+  bottom: 13rem;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.basement-section .basement-container .basement-right-section img {
+  width: 20rem;
+}
+
+.basement-section .basement-container .basement-right-section:hover {
+  bottom: 14rem;
 }
 /*# sourceMappingURL=Aref_projects_styles.css.map */
