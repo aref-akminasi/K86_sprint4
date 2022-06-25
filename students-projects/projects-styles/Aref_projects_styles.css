@@ -89,6 +89,46 @@ p {
   width: 80rem;
 }
 
+.billboard-section .billboard-board-container .billboard-home {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.billboard-section .billboard-board-container .billboard-home a {
+  font-family: Poppins-Bold;
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.billboard-section .billboard-board-container .billboard-home a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #070707;
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.billboard-section .billboard-board-container .billboard-home a:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
 .billboard-section .billboard-board-container .billboard-text {
   display: -webkit-box;
   display: -ms-flexbox;

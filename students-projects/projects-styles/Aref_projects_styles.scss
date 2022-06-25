@@ -1,5 +1,6 @@
 $bg-color: #f1fbfd;
 $bg-nav-bar: #fafafa;
+$link: #000000;
 
 * {
   box-sizing: border-box;
@@ -34,6 +35,8 @@ p {
   margin: 0;
   padding: 0;
 }
+
+
 .billboard-section {
   display: flex;
   flex-direction: column;
@@ -72,6 +75,38 @@ p {
       width: 80rem;
       
     }
+    .billboard-home {
+      position: absolute;
+      top: 5rem;
+      left: 5rem;
+      transition-duration: 0.3s;
+      a {
+        font-family: Poppins-Bold;
+        text-decoration: none;
+        color: $link;
+        font-size: 1.5rem;
+      }
+
+      a:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #070707;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+      }
+      a:hover:after {
+       
+        transform: scaleX(1);
+        transform-origin: bottom left;
+        
+      }
+    }
+
 
     .billboard-text {
       display: flex;
