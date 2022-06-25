@@ -2,12 +2,20 @@
   font-family: "Poppins";
   src: url("../fonts/Poppins-Regular.ttf");
 }
+
 /* GENERAL */
 body {
   background-color: #dcf0fa;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn;
   -webkit-animation-duration: 2s;
@@ -40,7 +48,8 @@ button {
 }
 
 button:hover {
-  box-shadow: 2px 2px 5px #C0CCEC;
+  -webkit-box-shadow: 2px 2px 5px #C0CCEC;
+          box-shadow: 2px 2px 5px #C0CCEC;
 }
 
 /* OUR BUILDINGS */
@@ -61,10 +70,11 @@ button:hover {
   margin-left: 25.7rem;
   z-index: -2;
   pointer-events: none;
-  opacity: 0;
+  opacity: 0.0;
   -webkit-animation: flicker 1s 4 linear;
           animation: flicker 1s 4 linear;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 /* MAUD */
@@ -84,10 +94,11 @@ button:hover {
   margin-left: 16rem;
   z-index: -2;
   pointer-events: none;
-  opacity: 0;
+  opacity: 0.0;
   -webkit-animation: flicker 1s 4 linear;
           animation: flicker 1s 4 linear;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 /* MAARTJE */
@@ -107,10 +118,11 @@ button:hover {
   margin-left: 38.9rem;
   z-index: -2;
   pointer-events: none;
-  opacity: 0;
+  opacity: 0.0;
   -webkit-animation: flicker 1s 4 linear;
           animation: flicker 1s 4 linear;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 /* MAARTJE */
@@ -130,10 +142,11 @@ button:hover {
   margin-left: 19.3rem;
   z-index: -2;
   pointer-events: none;
-  opacity: 0;
+  opacity: 0.0;
   -webkit-animation: flicker 1s 4 linear;
           animation: flicker 1s 4 linear;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 /* AREF */
@@ -153,10 +166,11 @@ button:hover {
   margin-left: 24.4rem;
   z-index: -2;
   pointer-events: none;
-  opacity: 0;
+  opacity: 0.0;
   -webkit-animation: flicker 1s 4 linear;
           animation: flicker 1s 4 linear;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 /* TITLE MAT-TOWN */
@@ -236,40 +250,45 @@ button:hover {
 #thijsPlein {
   position: absolute;
   height: 6rem;
-  opacity: 0;
-  transition-duration: 0.3s;
+  opacity: 0.0;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 /* AREF */
 #arefHof {
   position: absolute;
   height: 6rem;
-  opacity: 0;
-  transition-duration: 0.3s;
+  opacity: 0.0;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 /* MAUD */
 #maudGracht {
   position: absolute;
   height: 6rem;
-  opacity: 0;
-  transition-duration: 0.3s;
+  opacity: 0.0;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 /* TOM */
 #tomStraat {
   position: absolute;
   height: 6rem;
-  opacity: 0;
-  transition-duration: 0.3s;
+  opacity: 0.0;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 /* MAARTJE */
 #maartjeLaan {
   position: absolute;
   height: 6rem;
-  opacity: 0;
-  transition-duration: 0.3s;
+  opacity: 0.0;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 /* CLOUDS */
@@ -323,7 +342,7 @@ button:hover {
     opacity: 0;
   }
   100% {
-    opacity: 1;
+    opacity: 1.0;
   }
 }
 @keyframes fadeIn {
@@ -331,9 +350,10 @@ button:hover {
     opacity: 0;
   }
   100% {
-    opacity: 1;
+    opacity: 1.0;
   }
 }
+
 @-webkit-keyframes cloudMoveRight {
   0% {
     margin-left: -5%;
@@ -342,6 +362,7 @@ button:hover {
     margin-left: 105%;
   }
 }
+
 @keyframes cloudMoveRight {
   0% {
     margin-left: -5%;
@@ -350,6 +371,7 @@ button:hover {
     margin-left: 105%;
   }
 }
+
 @-webkit-keyframes cloudMoveLeft {
   0% {
     margin-left: 105%;
@@ -358,6 +380,7 @@ button:hover {
     margin-left: -5%;
   }
 }
+
 @keyframes cloudMoveLeft {
   0% {
     margin-left: 105%;
@@ -366,34 +389,38 @@ button:hover {
     margin-left: -5%;
   }
 }
+
 @-webkit-keyframes flicker {
   0% {
-    opacity: 0;
+    opacity: 0.0;
   }
   50% {
-    opacity: 1;
+    opacity: 1.0;
   }
   100% {
-    opacity: 0;
+    opacity: 0.0;
   }
 }
+
 @keyframes flicker {
   0% {
-    opacity: 0;
+    opacity: 0.0;
   }
   50% {
-    opacity: 1;
+    opacity: 1.0;
   }
   100% {
-    opacity: 0;
+    opacity: 0.0;
   }
 }
+
 /* PLANE ANIMATION */
 svg {
   width: 3%;
   -webkit-animation: plane 60s linear 2s infinite;
           animation: plane 60s linear 2s infinite;
-  transform: scale(0);
+  -webkit-transform: scale(0);
+          transform: scale(0);
   position: absolute;
   pointer-events: none;
 }
@@ -401,13 +428,15 @@ svg {
 #Top_engine_wing {
   position: relative;
   animation: engine 0.5s linear 0.5s infinite reverse;
-  transform-origin: 28.3% 83.5%;
+  -webkit-transform-origin: 28.3% 83.5%;
+          transform-origin: 28.3% 83.5%;
 }
 
 #Bottem_engine_wing {
   position: relative;
   animation: engine 0.5s linear 0.5s infinite reverse;
-  transform-origin: 28.3% 83.5%;
+  -webkit-transform-origin: 28.3% 83.5%;
+          transform-origin: 28.3% 83.5%;
 }
 
 @-webkit-keyframes plane {
@@ -415,13 +444,15 @@ svg {
     position: absolute;
     top: -80%;
     left: 160%;
-    transform: scale(100%);
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
   }
   100% {
     position: absolute;
     top: 200%;
     left: -100%;
-    transform: scale(100%);
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
   }
 }
 
@@ -430,15 +461,18 @@ svg {
     position: absolute;
     top: -80%;
     left: 160%;
-    transform: scale(100%);
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
   }
   100% {
     position: absolute;
     top: 200%;
     left: -100%;
-    transform: scale(100%);
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
   }
 }
+
 @-webkit-keyframes engine {
   0% {
     rotate: 0deg;
@@ -447,6 +481,7 @@ svg {
     rotate: 360deg;
   }
 }
+
 @keyframes engine {
   0% {
     rotate: 0deg;
@@ -455,13 +490,14 @@ svg {
     rotate: 360deg;
   }
 }
+
 /* RESPONSIVE */
 @media only screen and (max-width: 700px) {
   body {
     overflow: auto;
   }
-
   button {
     width: 30%;
   }
-}/*# sourceMappingURL=town.css.map */
+}
+/*# sourceMappingURL=town.css.map */
