@@ -273,6 +273,7 @@ p {
 }
 
 .room1-section .room1-container .room1-photo-section img {
+  margin: 0.5rem;
   width: 40rem;
 }
 
