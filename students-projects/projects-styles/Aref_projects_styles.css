@@ -151,6 +151,7 @@ p {
 .billboard-section .billboard-board-container .billboard-text .billboard-desc {
   font-family: Poppins-Light;
   font-size: 1.5rem;
+  text-align: justify;
 }
 
 .billboard-section .billboard-board-container .billboard-vector {
@@ -261,6 +262,7 @@ p {
 .room1-section .room1-container .room1-text-section .room1-text {
   font-family: Poppins-Light;
   font-size: 1.3rem;
+  text-align: justify;
 }
 
 .room1-section .room1-container .room1-photo-section {
