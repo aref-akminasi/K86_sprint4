@@ -478,12 +478,12 @@ p {
 
 .room3-section .room3-container .room3-right-section {
   position: absolute;
-  bottom: 2rem;
+  bottom: 0rem;
   right: 5rem;
 }
 
 .room3-section .room3-container .room3-right-section img {
-  width: 15rem;
+  width: 25rem;
 }
 
 .basement-section {
