@@ -21,6 +21,17 @@ html {
   src: url(../project-fonts/Poppins-Light.ttf);
 }
 
+.newtab_img {
+  transition-duration: 0.3s;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.newtab_img:hover {
+  opacity: 0.8;
+  border-radius: 3rem;
+}
+
 body {
   background-color: $bg-color;
   display: flex;
