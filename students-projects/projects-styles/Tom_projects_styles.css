@@ -156,12 +156,12 @@ p {
 
 .billboard-section .billboard-board-container .billboard-vector {
   position: absolute;
-  top: 13rem;
-  left: 9rem;
+  top: 12rem;
+  left: 7rem;
 }
 
 .billboard-section .billboard-board-container .billboard-vector .vector {
-  width: 18rem;
+  width: 22rem;
 }
 
 .billboard-section .billboard-board-container .billboard-linkedin {
