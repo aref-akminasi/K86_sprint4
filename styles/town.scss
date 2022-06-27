@@ -1,8 +1,14 @@
 $bg: #dcf0fa;
+$link: #000000;
 
 @font-face {
     font-family: "Poppins";
     src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins Bold";
+    src: url("../fonts/Poppins-Bold.ttf");
 }
 
 /* GENERAL */
@@ -28,19 +34,30 @@ body {
     z-index: -2;
 }
 
-button {
-    font-size: 20px;
-    font-family: "Poppins", Arial;
-    background-color: $bg;
-    border-radius: 5px;
-    border: 2px solid #C0CCEC;
-    padding: 5px;
-    width: 15%;
+a {
+    font-family: "Poppins Bold";
+    text-decoration: none;
+    color: $link;
+    font-size: 1.5rem;
     pointer-events: all;
 }
 
-button:hover {
-    box-shadow: 2px 2px 5px #C0CCEC;
+a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-color: #070707;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 /* OUR BUILDINGS */
@@ -71,7 +88,7 @@ button:hover {
     position: absolute;
     height: 8rem;
     margin-top: 11rem;
-    margin-left: 16rem;
+    margin-left: 16.2rem;
     z-index: -1;
     pointer-events: all;
 }
@@ -80,7 +97,7 @@ button:hover {
     position: absolute;
     height: 8.2rem;
     margin-top: 10.9rem;
-    margin-left: 16rem;
+    margin-left: 16.2rem;
     z-index: -2;
     pointer-events: none;
     opacity: 0.0;
@@ -93,7 +110,7 @@ button:hover {
     position: absolute;
     height: 8rem;
     margin-top: 15rem;
-    margin-left: 39rem;
+    margin-left: 38.8rem;
     z-index: -1;
     pointer-events: all;
 }
@@ -102,7 +119,7 @@ button:hover {
     position: absolute;
     height: 8.2rem;
     margin-top: 14.9rem;
-    margin-left: 38.9rem;
+    margin-left: 38.7rem;
     z-index: -2;
     pointer-events: none;
     opacity: 0.0;
@@ -114,8 +131,8 @@ button:hover {
 #tomBuilding {
     position: absolute;
     height: 9rem;
-    margin-top: 24.5rem;
-    margin-left: 19.5rem;
+    margin-top: 24rem;
+    margin-left: 21rem;
     z-index: -1;
     pointer-events: all;
 }
@@ -123,8 +140,8 @@ button:hover {
 #tomGloed {
     position: absolute;
     height: 9.4rem;
-    margin-top: 24.35rem;
-    margin-left: 19.3rem;
+    margin-top: 23.85rem;
+    margin-left: 20.8rem;
     z-index: -2;
     pointer-events: none;
     opacity: 0.0;
