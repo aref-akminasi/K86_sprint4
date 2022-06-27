@@ -41,7 +41,7 @@ body {
   z-index: -2;
 }
 
-a {
+#backhome {
   font-family: "Poppins Bold";
   text-decoration: none;
   color: #000000;
@@ -49,15 +49,23 @@ a {
   pointer-events: all;
 }
 
-a:after {
+.backhome-container {
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+#backhome:after {
   content: '';
   position: absolute;
-  width: 100%;
+  width: 6.7rem;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
   height: 2px;
-  margin-bottom: 0;
-  margin-left: 0;
+  bottom: -0.2rem;
+  left: 0;
   background-color: #070707;
   -webkit-transform-origin: bottom right;
           transform-origin: bottom right;
@@ -67,7 +75,7 @@ a:after {
   transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
 }
 
-a:hover:after {
+#backhome:hover:after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
   -webkit-transform-origin: bottom left;
