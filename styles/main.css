@@ -2,10 +2,16 @@
   font-family: "Poppins";
   src: url("../fonts/Poppins-Regular.ttf");
 }
+
 body {
   background-color: #dcf0fa;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin: 20px;
   overflow: hidden;
 }
@@ -44,7 +50,8 @@ button {
 }
 
 button:hover {
-  box-shadow: 2px 2px 5px #C0CCEC;
+  -webkit-box-shadow: 2px 2px 5px #C0CCEC;
+          box-shadow: 2px 2px 5px #C0CCEC;
 }
 
 img {
@@ -200,27 +207,28 @@ img {
 
 @-webkit-keyframes textOpacity {
   0% {
-    opacity: 1;
+    opacity: 1.0;
   }
   50% {
-    opacity: 0;
+    opacity: 0.0;
   }
   100% {
-    opacity: 0;
+    opacity: 0.0;
   }
 }
 
 @keyframes textOpacity {
   0% {
-    opacity: 1;
+    opacity: 1.0;
   }
   50% {
-    opacity: 0;
+    opacity: 0.0;
   }
   100% {
-    opacity: 0;
+    opacity: 0.0;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   @-webkit-keyframes moveCloud1 {
     0% {
@@ -228,12 +236,12 @@ img {
       margin-top: 0vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: -35vw;
       margin-top: -20vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @keyframes moveCloud1 {
@@ -242,12 +250,12 @@ img {
       margin-top: 0vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: -35vw;
       margin-top: -20vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @-webkit-keyframes moveCloud2 {
@@ -256,12 +264,12 @@ img {
       margin-top: 0vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: -35vw;
       margin-top: -20vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @keyframes moveCloud2 {
@@ -270,12 +278,12 @@ img {
       margin-top: 0vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: -35vw;
       margin-top: -20vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @-webkit-keyframes moveCloud3 {
@@ -284,12 +292,12 @@ img {
       margin-top: 15vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: -35vw;
       margin-top: -10vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @keyframes moveCloud3 {
@@ -298,12 +306,12 @@ img {
       margin-top: 15vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: -35vw;
       margin-top: -10vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @-webkit-keyframes moveCloud4 {
@@ -311,11 +319,11 @@ img {
       margin-left: 5vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: -35vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @keyframes moveCloud4 {
@@ -323,11 +331,11 @@ img {
       margin-left: 5vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: -35vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @-webkit-keyframes moveCloud5 {
@@ -336,12 +344,12 @@ img {
       margin-top: 60vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: -35vw;
       margin-top: 80vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @keyframes moveCloud5 {
@@ -350,12 +358,12 @@ img {
       margin-top: 60vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: -35vw;
       margin-top: 80vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @-webkit-keyframes moveCloud6 {
@@ -364,12 +372,12 @@ img {
       margin-top: 70vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: -35vw;
       margin-top: 90vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @keyframes moveCloud6 {
@@ -378,12 +386,12 @@ img {
       margin-top: 70vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: -35vw;
       margin-top: 90vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @-webkit-keyframes moveCloud7 {
@@ -392,12 +400,12 @@ img {
       margin-top: 0vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: 105vw;
       margin-top: -20vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @keyframes moveCloud7 {
@@ -406,12 +414,12 @@ img {
       margin-top: 0vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: 105vw;
       margin-top: -20vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @-webkit-keyframes moveCloud8 {
@@ -420,12 +428,12 @@ img {
       margin-top: 0vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: 55vw;
       margin-top: -30vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @keyframes moveCloud8 {
@@ -434,12 +442,12 @@ img {
       margin-top: 0vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: 55vw;
       margin-top: -30vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @-webkit-keyframes moveCloud9 {
@@ -448,12 +456,12 @@ img {
       margin-top: 15vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: 60vw;
       margin-top: 10vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @keyframes moveCloud9 {
@@ -462,12 +470,12 @@ img {
       margin-top: 15vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: 60vw;
       margin-top: 10vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @-webkit-keyframes moveCloud10 {
@@ -476,12 +484,12 @@ img {
       margin-top: 25vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: 45vw;
       margin-top: -20vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @keyframes moveCloud10 {
@@ -490,12 +498,12 @@ img {
       margin-top: 25vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: 45vw;
       margin-top: -20vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @-webkit-keyframes moveCloud11 {
@@ -504,12 +512,12 @@ img {
       margin-top: 30vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: 45vw;
       margin-top: -15vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @keyframes moveCloud11 {
@@ -518,12 +526,12 @@ img {
       margin-top: 30vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: 45vw;
       margin-top: -15vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @-webkit-keyframes moveCloud12 {
@@ -532,12 +540,12 @@ img {
       margin-top: 50vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: 45vw;
       margin-top: 15vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @keyframes moveCloud12 {
@@ -546,12 +554,12 @@ img {
       margin-top: 50vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: 45vw;
       margin-top: 15vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @-webkit-keyframes moveCloud13 {
@@ -560,12 +568,12 @@ img {
       margin-top: 60vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: 45vw;
       margin-top: 25vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @keyframes moveCloud13 {
@@ -574,12 +582,12 @@ img {
       margin-top: 60vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: 45vw;
       margin-top: 25vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @-webkit-keyframes moveCloud14 {
@@ -588,12 +596,12 @@ img {
       margin-top: 70vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: 45vw;
       margin-top: 60vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   @keyframes moveCloud14 {
@@ -602,525 +610,497 @@ img {
       margin-top: 70vh;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-left: 45vw;
       margin-top: 60vh;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
 }
+
 @media only screen and (max-width: 1024px) {
   body {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-
   img {
     height: 150px;
     width: 150px;
   }
-
   #leftClouds {
     width: 90vw;
     height: 30vh;
   }
-
   #middle {
     width: 90vw;
     height: 100%;
     margin-top: 0px;
     margin: auto;
   }
-
   #rightClouds {
     width: 90vw;
     height: 30vh;
   }
-
   #cloud1 {
     margin-top: 2vh;
     margin-left: -10vw;
   }
-
   @-webkit-keyframes moveCloud1 {
     0% {
       margin-top: 2vh;
       margin-left: -10vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: -10vh;
       margin-left: -20vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
-
   @keyframes moveCloud1 {
     0% {
       margin-top: 2vh;
       margin-left: -10vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: -10vh;
       margin-left: -20vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   #cloud2 {
     margin-top: 2vh;
     margin-left: 20vw;
   }
-
   @-webkit-keyframes moveCloud2 {
     0% {
       margin-top: 2vh;
       margin-left: 20vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: -10vh;
       margin-left: -20vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
-
   @keyframes moveCloud2 {
     0% {
       margin-top: 2vh;
       margin-left: 20vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: -10vh;
       margin-left: -20vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   #cloud3 {
     margin-top: 8vh;
     margin-left: 45vw;
   }
-
   @-webkit-keyframes moveCloud3 {
     0% {
       margin-top: 8vh;
       margin-left: 45vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: -20vh;
       margin-left: 20vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
-
   @keyframes moveCloud3 {
     0% {
       margin-top: 8vh;
       margin-left: 45vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: -20vh;
       margin-left: 20vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   #cloud4 {
     margin-top: 14vh;
     margin-left: 65vw;
   }
-
   @-webkit-keyframes moveCloud4 {
     0% {
       margin-top: 14vh;
       margin-left: 65vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: -10vh;
       margin-left: 90vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
-
   @keyframes moveCloud4 {
     0% {
       margin-top: 14vh;
       margin-left: 65vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: -10vh;
       margin-left: 90vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   #cloud5 {
     margin-top: 0vh;
     margin-left: 60vw;
   }
-
   @-webkit-keyframes moveCloud5 {
     0% {
       margin-top: 0vh;
       margin-left: 60vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: -10vh;
       margin-left: 90vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
-
   @keyframes moveCloud5 {
     0% {
       margin-top: 0vh;
       margin-left: 60vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: -10vh;
       margin-left: 90vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   #cloud6 {
     margin-top: 16vh;
     margin-left: 5vw;
   }
-
   @-webkit-keyframes moveCloud6 {
     0% {
       margin-top: 16vh;
       margin-left: 5vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: -5vh;
       margin-left: -20vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
-
   @keyframes moveCloud6 {
     0% {
       margin-top: 16vh;
       margin-left: 5vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: -5vh;
       margin-left: -20vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   #cloud7 {
     margin-top: 2vh;
     margin-left: 85vw;
   }
-
   @-webkit-keyframes moveCloud7 {
     0% {
       margin-top: 2vh;
       margin-left: 85vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: -10vh;
       margin-left: 95vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
-
   @keyframes moveCloud7 {
     0% {
       margin-top: 2vh;
       margin-left: 85vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: -10vh;
       margin-left: 95vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   #cloud8 {
     margin-top: 0vh;
     margin-left: 0vw;
   }
-
   @-webkit-keyframes moveCloud8 {
     0% {
       margin-top: 0vh;
       margin-left: 0vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: 40vh;
       margin-left: -10vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
-
   @keyframes moveCloud8 {
     0% {
       margin-top: 0vh;
       margin-left: 0vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: 40vh;
       margin-left: -10vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   #cloud9 {
     margin-top: 3vh;
     margin-left: 20vw;
   }
-
   @-webkit-keyframes moveCloud9 {
     0% {
       margin-top: 3vh;
       margin-left: 20vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: 40vh;
       margin-left: -20vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
-
   @keyframes moveCloud9 {
     0% {
       margin-top: 3vh;
       margin-left: 20vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: 40vh;
       margin-left: -20vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   #cloud10 {
     margin-top: 13vh;
     margin-left: 5vw;
   }
-
   @-webkit-keyframes moveCloud10 {
     0% {
       margin-top: 13vh;
       margin-left: 5vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: 30vh;
       margin-left: -20vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
-
   @keyframes moveCloud10 {
     0% {
       margin-top: 13vh;
       margin-left: 5vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: 30vh;
       margin-left: -20vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   #cloud11 {
     margin-top: 15vh;
     margin-left: 75vw;
   }
-
   @-webkit-keyframes moveCloud11 {
     0% {
       margin-top: 15vh;
       margin-left: 75vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: 35vh;
       margin-left: 105vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
-
   @keyframes moveCloud11 {
     0% {
       margin-top: 15vh;
       margin-left: 75vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: 35vh;
       margin-left: 105vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   #cloud12 {
     margin-top: 0vh;
     margin-left: 80vw;
   }
-
   @-webkit-keyframes moveCloud12 {
     0% {
       margin-top: 0vh;
       margin-left: 80vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: 40vh;
       margin-left: 105vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
-
   @keyframes moveCloud12 {
     0% {
       margin-top: 0vh;
       margin-left: 80vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: 40vh;
       margin-left: 105vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   #cloud13 {
     margin-top: 5vh;
     margin-left: 55vw;
   }
-
   @-webkit-keyframes moveCloud13 {
     0% {
       margin-top: 5vh;
       margin-left: 55vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: 25vh;
       margin-left: 60vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
-
   @keyframes moveCloud13 {
     0% {
       margin-top: 5vh;
       margin-left: 55vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: 25vh;
       margin-left: 60vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
   #cloud14 {
     margin-top: 10vh;
     margin-left: 35vw;
   }
-
   @-webkit-keyframes moveCloud14 {
     0% {
       margin-top: 10vh;
       margin-left: 35vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: 35vh;
       margin-left: 10vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
-
   @keyframes moveCloud14 {
     0% {
       margin-top: 10vh;
       margin-left: 35vw;
     }
     50% {
-      opacity: 0;
+      opacity: 0.0;
     }
     100% {
       margin-top: 35vh;
       margin-left: 10vw;
-      opacity: 0;
+      opacity: 0.0;
     }
   }
 }
+
 @media only screen and (max-width: 400px) {
   body {
     overflow-y: auto;
   }
-
   #rightClouds {
     display: none;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
