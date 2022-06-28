@@ -34,6 +34,7 @@ body {
     z-index: -2;
 }
 
+/* BACK BUTTON */
 #backhome {
     font-family: "Poppins Bold";
     text-decoration: none;
@@ -41,6 +42,7 @@ body {
     font-size: 1.5rem;
     pointer-events: all;
 }
+
 .backhome-container {
     position: relative;
     top: 1rem;
@@ -48,6 +50,7 @@ body {
     transition-duration: 0.3s;
     
 }
+
 #backhome:after {
     content: '';
     position: absolute;
@@ -293,42 +296,87 @@ body {
 /* CLOUDS */
 #townCloud1 {
     height: 3rem;
-    margin-top: -35rem;
-    margin-left: -5%;
+    margin-top: -30%;
+    margin-left: -10%;
     position: absolute;
-    animation: cloudMoveRight 50s linear infinite;
     pointer-events: none;
     opacity: 0.8;
 }
 
 #townCloud2 {
     height: 3rem;
-    margin-top: -10rem;
-    margin-left: 105%;
+    margin-top: -22.5%;
+    margin-left: -10%;
     position: absolute;
-    animation: cloudMoveLeft 90s linear infinite;
     pointer-events: none;
     opacity: 0.8;
 }
 
 #townCloud3 {
     height: 3rem;
-    margin-top: 10rem;
-    margin-left: -5%;
+    margin-top: -15%;
+    margin-left: -10%;
     position: absolute;
-    animation: cloudMoveRight 120s linear infinite;
     pointer-events: none;
     opacity: 0.8;
 }
 
 #townCloud4 {
     height: 3rem;
-    margin-top: 30rem;
-    margin-left: 105%;
+    margin-top: -7.5%;
+    margin-left: -10%;
     position: absolute;
-    animation: cloudMoveLeft 70s linear infinite;
     pointer-events: none;
     opacity: 0.8;
+}
+
+#townCloud5 {
+    height: 3rem;
+    margin-top: 0%;
+    margin-left: -10%;
+    position: absolute;
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+#townCloud6 {
+    height: 3rem;
+    margin-top: 7.5%;
+    margin-left: -10%;
+    position: absolute;
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+#townCloud7 {
+    height: 3rem;
+    margin-top: 15%;
+    margin-left: -10%;
+    position: absolute;
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+#townCloud8 {
+    height: 3rem;
+    margin-top: 22.5%;
+    margin-left: -10%;
+    position: absolute;
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+#townCloud9 {
+    height: 3rem;
+    margin-top: 30%;
+    margin-left: -10%;
+    position: absolute;
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+.cloudAnimation {
+    animation: cloudMove 60s linear;
 }
 
 /* ANIMATION KEYFRAME */
@@ -341,21 +389,12 @@ body {
     }
 }
 
-@keyframes cloudMoveRight {
+@keyframes cloudMove {
     0% {
-        margin-left: -5%;
+        margin-left: -10%;
     }
     100% {
-        margin-left: 105%;
-    }
-}
-
-@keyframes cloudMoveLeft {
-    0% {
-        margin-left: 105%;
-    }
-    100% {
-        margin-left: -5%;
+        margin-left: 110%;
     }
 }
 
