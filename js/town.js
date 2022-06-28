@@ -102,5 +102,4 @@ setInterval(function () {
                 document.getElementById('townCloud9').classList.remove('cloudAnimation');
             }, 60000);
         }
-        console.log(random);
     }, 10000);
