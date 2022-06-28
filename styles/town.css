@@ -405,8 +405,8 @@ body {
 }
 
 .cloudAnimation {
-  -webkit-animation: cloudMove 60s linear;
-          animation: cloudMove 60s linear;
+  -webkit-animation: cloudMove 80s linear infinite;
+          animation: cloudMove 80s linear infinite;
 }
 
 /* ANIMATION KEYFRAME */
@@ -432,7 +432,7 @@ body {
     margin-left: -10%;
   }
   100% {
-    margin-left: 110%;
+    margin-left: 140%;
   }
 }
 
@@ -441,7 +441,7 @@ body {
     margin-left: -10%;
   }
   100% {
-    margin-left: 110%;
+    margin-left: 140%;
   }
 }
 

@@ -54,8 +54,8 @@ document.getElementById('maudBuilding').onmouseleave = function() {
 }
 
 // Cloud function
-setInterval(function () {
-        let random = Math.random();
+  /*setInterval(function () {
+      let random = Math.random();
         if (0.1 > random > 0) {
             document.getElementById('townCloud1').classList.add('cloudAnimation');
             setInterval(function() {
@@ -102,4 +102,18 @@ setInterval(function () {
                 document.getElementById('townCloud9').classList.remove('cloudAnimation');
             }, 60000);
         }
-    }, 10000);
+    
+    
+}, 12000);*/
+
+let cloudArray = ['townCloud1', 'townCloud2', 'townCloud3', 'townCloud4', 'townCloud5', 'townCloud6', 'townCloud7', 'townCloud8', 'townCloud9'];
+
+setInterval(function() {
+    let random = Math.floor(Math.random() * cloudArray.length);
+    let currentCloud = cloudArray[random];
+    if(cloudArray.length > 1) {
+        document.getElementById(currentCloud).classList.add('cloudAnimation');
+    }
+    cloudArray.splice(random, 1);
+}, 10000)
+
