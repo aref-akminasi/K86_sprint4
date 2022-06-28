@@ -1,7 +1,7 @@
 # K86 sprint 4
 
 This is the repository for the group project for minor Visual design & Front-end development
-Live demo: [link]
+Live demo: https://mat-town.netlify.app/
 
 ## How to run
 
