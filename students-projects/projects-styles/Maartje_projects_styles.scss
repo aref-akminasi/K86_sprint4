@@ -31,6 +31,24 @@ body {
   margin-top: 20rem;
 }
 
+.newtab_img {
+  transition-duration: 0.3s;
+  cursor: pointer;
+  opacity: 1;
+  border-radius: 0.5rem;
+}
+
+.newtab_img:hover {
+  opacity: 0.8;
+  border-radius: 3rem;
+}
+
+.linkstyling {
+  color:black;
+  font-weight: bold;
+}
+
+
 p {
   margin: 0;
   padding: 0;
