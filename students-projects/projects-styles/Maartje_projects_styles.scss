@@ -445,5 +445,19 @@ p {
       
      }
 
+     .basement-back-to-top {
+      position: absolute;
+      right: 8rem;
+      bottom: 5rem;
+      transition-duration: 0.3s;
+      img {
+        width: 5rem;
+      }
+    }
+
+    .basement-back-to-top:hover  {
+      bottom: 6rem;
+    }
+
   }
 }

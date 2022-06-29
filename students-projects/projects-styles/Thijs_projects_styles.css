@@ -552,4 +552,20 @@ p {
 .basement-section .basement-container .basement-right-section:hover {
   right: 9rem;
 }
+
+.basement-section .basement-container .basement-back-to-top {
+  position: absolute;
+  right: 8rem;
+  bottom: 5rem;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.basement-section .basement-container .basement-back-to-top img {
+  width: 5rem;
+}
+
+.basement-section .basement-container .basement-back-to-top:hover {
+  bottom: 6rem;
+}
 /*# sourceMappingURL=Thijs_projects_styles.css.map */
